@@ -3,11 +3,54 @@
  * listed below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
  *
- * You're free to add application-wide styles to this file and they'll appear at the top of the
- * compiled file, but it's generally better to create a new file per style scope.
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
  *
- *= require_self
  *= require_tree .
+ *= require_self
  */
+
+html, body{
+	background-color:#d1f0ff;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	text-align: center;
+	width:100%;
+}
+
+#header{
+	position:absolute;
+	top:0px;
+	width:100%;
+}
+
+#outer{
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#middle{
+    display: table-cell;
+    vertical-align: middle;
+}
+#main{
+	background-color: #FFFFFF;
+	border-radius:5px;
+	margin:0px auto;
+	max-width: 400px;
+	padding:15px;
+}
+
+input[type="submit"] {
+	color:#555555;
+	-webkit-transition: background-color 80ms ease-in;
+    -moz-transition: background-color 80ms ease-in;
+    -o-transition: background-color 80ms ease-in;
+    transition: background-color 80ms ease-in;
+}

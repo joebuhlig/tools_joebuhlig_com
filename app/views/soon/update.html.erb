@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A Braintree Dropin Payments Example</title>
+
+<link rel='stylesheet' href='/components/bootstrap/dist/css/bootstrap.min.css'>
+<script>
+  function delayedRedirect(){
+      window.location = "/";
+  }
+</script>
+</head>
+<body onLoad="setTimeout('delayedRedirect()', 2000)">
+  <% if @update %>
+    <div>Sweet! You're updated.</div>
+  <% else %>
+    <div>Epic fail.</div>
+  <% end %>
+  </div>
+</body>
+</html>

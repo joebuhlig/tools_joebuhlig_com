@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A Braintree Dropin Payments Example</title>
+    <script src="https://js.braintreegateway.com/v2/braintree.js"></script>
+    <script>
+      function delayedRedirect(){
+        window.location = "/";
+      }
+    </script>
+  </head>
+  <body onLoad="setTimeout('delayedRedirect()', 2000)">
+    <% if @delete %>
+    <div>Sorry to see you go.</div>
+    <% else %>
+    <div>Failed to delete you.</div>
+    <% end %>
+    <div>customer = <%= @customer %></div>
+    <div>subscription = <%= @subscription %></div>
+    <div>delete = <%= @delete %></div>
+  </body>
+</html>
