@@ -1,5 +1,5 @@
-Tools::Application.routes.draw do
-  root :to => 'comingsoon#index'
+Rails.application.routes.draw do
+  root 'comingsoon#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
