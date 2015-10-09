@@ -1,244 +1,39 @@
 
 
-Started GET "/" for ::1 at 2015-10-04 06:10:57 -0500
+Started GET "/" for ::1 at 2015-10-09 16:06:11 -0500
 Processing by Rails::WelcomeController#index as HTML
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
-Completed 200 OK in 29ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (1.8ms)
+Completed 200 OK in 31ms (Views: 20.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/apple-touch-icon-precomposed.png" for ::1 at 2015-10-04 06:10:57 -0500
-
-ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
-  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
-  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
-  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
-  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
-  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
-  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
-  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
-  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
-  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
-  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
-  rack (1.6.4) lib/rack/lock.rb:17:in `call'
-  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
-  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
-  railties (4.2.4) lib/rails/engine.rb:518:in `call'
-  railties (4.2.4) lib/rails/application.rb:165:in `call'
-  rack (1.6.4) lib/rack/lock.rb:17:in `call'
-  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
-  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
-  /Users/joebuhlig/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
-  /Users/joebuhlig/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
-  /Users/joebuhlig/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
-
-
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.4ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (70.4ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (52.0ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (120.0ms)
-
-
-Started GET "/" for ::1 at 2015-10-04 06:10:58 -0500
-Processing by Rails::WelcomeController#index as HTML
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
-Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/apple-touch-icon.png" for ::1 at 2015-10-04 06:10:58 -0500
-
-ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
-  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
-  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
-  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
-  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
-  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
-  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
-  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
-  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
-  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
-  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
-  rack (1.6.4) lib/rack/lock.rb:17:in `call'
-  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
-  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
-  railties (4.2.4) lib/rails/engine.rb:518:in `call'
-  railties (4.2.4) lib/rails/application.rb:165:in `call'
-  rack (1.6.4) lib/rack/lock.rb:17:in `call'
-  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
-  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
-  /Users/joebuhlig/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
-  /Users/joebuhlig/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
-  /Users/joebuhlig/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
-
-
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (50.7ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (49.5ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (103.1ms)
-
-
-Started GET "/" for ::1 at 2015-10-04 06:10:58 -0500
+Started GET "/" for ::1 at 2015-10-09 16:06:27 -0500
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
-Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/apple-touch-icon-precomposed.png" for ::1 at 2015-10-04 06:10:58 -0500
-
-ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
-  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
-  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
-  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
-  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
-  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
-  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
-  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
-  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
-  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
-  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
-  rack (1.6.4) lib/rack/lock.rb:17:in `call'
-  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
-  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
-  railties (4.2.4) lib/rails/engine.rb:518:in `call'
-  railties (4.2.4) lib/rails/application.rb:165:in `call'
-  rack (1.6.4) lib/rack/lock.rb:17:in `call'
-  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
-  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
-  /Users/joebuhlig/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
-  /Users/joebuhlig/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
-  /Users/joebuhlig/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
-
-
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.2ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (38.4ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (86.9ms)
-
-
-Started GET "/apple-touch-icon.png" for ::1 at 2015-10-04 06:10:58 -0500
-
-ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
-  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
-  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
-  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
-  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
-  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
-  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
-  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
-  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
-  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
-  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
-  rack (1.6.4) lib/rack/lock.rb:17:in `call'
-  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
-  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
-  railties (4.2.4) lib/rails/engine.rb:518:in `call'
-  railties (4.2.4) lib/rails/application.rb:165:in `call'
-  rack (1.6.4) lib/rack/lock.rb:17:in `call'
-  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
-  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
-  /Users/joebuhlig/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
-  /Users/joebuhlig/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
-  /Users/joebuhlig/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
-
-
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.2ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (42.6ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
-  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (97.2ms)
-
-
-Started GET "/" for ::1 at 2015-10-04 06:12:00 -0500
+Started GET "/" for ::1 at 2015-10-09 16:09:08 -0500
 Processing by WelcomeController#index as HTML
-  Rendered welcome/index.html.erb within layouts/application (0.4ms)
-Completed 200 OK in 1127ms (Views: 1126.6ms | ActiveRecord: 0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1097ms (Views: 1088.3ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-04 06:12:01 -0500
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-09 16:09:10 -0500
 
 
-Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-04 06:12:01 -0500
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-09 16:09:10 -0500
 
 
-Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-04 06:12:01 -0500
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-09 16:09:10 -0500
 
 
-Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-04 06:12:01 -0500
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-09 16:09:10 -0500
 
 
-Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-04 06:12:01 -0500
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-09 16:09:10 -0500
 
 
-Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-04 06:12:01 -0500
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-09 16:09:10 -0500
 
 
-Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-04 06:12:01 -0500
-
-
-Started GET "/" for ::1 at 2015-10-04 06:12:26 -0500
-Processing by WelcomeController#index as HTML
-  Rendered welcome/index.html.erb within layouts/application (0.8ms)
-Completed 200 OK in 59ms (Views: 57.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-04 06:12:27 -0500
-
-
-Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-04 06:12:27 -0500
-
-
-Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-04 06:12:27 -0500
-
-
-Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-04 06:12:27 -0500
-
-
-Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-04 06:12:27 -0500
-
-
-Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-04 06:12:27 -0500
-
-
-Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-04 06:12:27 -0500
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-09 16:09:10 -0500
