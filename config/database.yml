@@ -29,5 +29,5 @@ test:
 production:
   <<: *default
   database: tools_joebuhlig_com_production
-  username: tools_joebuhlig_com
-  password: myAwesomePassword1#
+  username: tools
+  password: MyPassword

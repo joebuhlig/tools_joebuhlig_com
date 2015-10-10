@@ -233,3 +233,9 @@ Completed 200 OK in 195ms (Views: 186.7ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-10 13:37:00 -0500
+
+
+Started GET "/" for ::1 at 2015-10-10 16:39:06 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 135ms (Views: 130.5ms | ActiveRecord: 0.0ms)
