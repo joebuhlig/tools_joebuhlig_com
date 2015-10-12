@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ToolsJoebuhligCom</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <title>Tools | Joe Buhlig</title>
+  <%= render "shared/head" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+<%= render "shared/header" %>
+
+<div class="page-content">
+	<div class="wrapper content-wrapper">
+		<%= yield %>
+	</div>
+</div>
 
 </body>
 </html>
