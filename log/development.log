@@ -2763,3 +2763,184 @@ Started GET "/assets/header_title-59e0a943b23b4dadaf494a55771a03cf767a14f0346406
 
 
 Started GET "/assets/header_desc-bd7e527717681633c5cf37a4486a3dc0315bafacc966e6e93bbed12f95528312.svg" for ::1 at 2015-10-12 16:46:53 -0500
+
+
+Started GET "/" for ::1 at 2015-10-12 16:51:53 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered shared/_head.html.erb (63.2ms)
+  Rendered shared/_header.html.erb (8.0ms)
+Completed 200 OK in 79ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-12 16:51:53 -0500
+
+
+Started GET "/assets/main.self-ddce9c7204662cadcd68f0d85d206300386997f0b6d0a1f7308597fe0fc6e8da.css?body=1" for ::1 at 2015-10-12 16:51:53 -0500
+
+
+Started GET "/assets/application.self-5aac59f1c901b03729437ae76d9bca91ccea07b8dcd1e25bff5ac94d6a010c2a.css?body=1" for ::1 at 2015-10-12 16:51:53 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-12 16:51:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-12 16:51:53 -0500
+
+
+Started GET "/assets/affiliates.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-12 16:51:53 -0500
+
+
+Started GET "/assets/main.css" for ::1 at 2015-10-12 16:51:53 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-12 16:51:53 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-12 16:51:53 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-12 16:51:53 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-12 16:51:53 -0500
+
+
+Started GET "/assets/header_tree-ab2d64b0a5d9050ac80fff36479a00a6219831cf573d29159ac149599308d791.png" for ::1 at 2015-10-12 16:51:53 -0500
+
+
+Started GET "/assets/header_desc-bd7e527717681633c5cf37a4486a3dc0315bafacc966e6e93bbed12f95528312.svg" for ::1 at 2015-10-12 16:51:53 -0500
+
+
+Started GET "/assets/header_title-59e0a943b23b4dadaf494a55771a03cf767a14f0346406331022225bd01ecd6e.svg" for ::1 at 2015-10-12 16:51:53 -0500
+
+
+Started GET "/assets/favicon-32x32.png" for ::1 at 2015-10-12 16:51:53 -0500
+
+
+Started GET "/assets/favicon-16x16.png" for ::1 at 2015-10-12 16:51:53 -0500
+
+
+Started GET "/assets/favicon-96x96.png" for ::1 at 2015-10-12 16:51:54 -0500
+
+
+Started GET "/assets/favicon-160x160.png" for ::1 at 2015-10-12 16:51:54 -0500
+
+
+Started GET "/assets/favicon-32x32.png" for ::1 at 2015-10-12 16:51:54 -0500
+
+
+Started GET "/assets/favicon-16x16.png" for ::1 at 2015-10-12 16:51:54 -0500
+
+
+Started GET "/assets/favicon-96x96.png" for ::1 at 2015-10-12 16:51:54 -0500
+
+
+Started GET "/assets/favicon-160x160.png" for ::1 at 2015-10-12 16:51:54 -0500
+
+
+Started GET "/assets/favicon-192x192.png" for ::1 at 2015-10-12 16:51:54 -0500
+
+
+Started GET "/" for ::1 at 2015-10-12 16:52:02 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+  Rendered shared/_head.html.erb (133.5ms)
+Completed 500 Internal Server Error in 154ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( main.css )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    2: <%= stylesheet_link_tag "main", media: "all", "data-turbolinks-track" => true %>
+    3: <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    4: <%= csrf_meta_tags %>
+    5: 
+  app/views/shared/_head.html.erb:2:in `_app_views_shared__head_html_erb___2464980289990702555_70289967111860'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2334483290782812248_70289927233740'
+
+
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (23.7ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (73.3ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (42.6ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (94.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-12 16:52:41 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+  Rendered shared/_head.html.erb (196.2ms)
+  Rendered shared/_header.html.erb (12.6ms)
+Completed 200 OK in 234ms (Views: 224.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-ddce9c7204662cadcd68f0d85d206300386997f0b6d0a1f7308597fe0fc6e8da.css?body=1" for ::1 at 2015-10-12 16:52:41 -0500
+
+
+Started GET "/assets/affiliates.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-12 16:52:41 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-12 16:52:41 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-12 16:52:41 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-12 16:52:41 -0500
+
+
+Started GET "/assets/application.self-5aac59f1c901b03729437ae76d9bca91ccea07b8dcd1e25bff5ac94d6a010c2a.css?body=1" for ::1 at 2015-10-12 16:52:41 -0500
+
+
+Started GET "/assets/main.css" for ::1 at 2015-10-12 16:52:41 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-12 16:52:41 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-12 16:52:41 -0500
+
+
+Started GET "/assets/header_tree-ab2d64b0a5d9050ac80fff36479a00a6219831cf573d29159ac149599308d791.png" for ::1 at 2015-10-12 16:52:41 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-12 16:52:41 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-12 16:52:41 -0500
+
+
+Started GET "/assets/header_title-59e0a943b23b4dadaf494a55771a03cf767a14f0346406331022225bd01ecd6e.svg" for ::1 at 2015-10-12 16:52:41 -0500
+
+
+Started GET "/assets/header_desc-bd7e527717681633c5cf37a4486a3dc0315bafacc966e6e93bbed12f95528312.svg" for ::1 at 2015-10-12 16:52:41 -0500
+
+
+Started GET "/assets/favicon-32x32.png" for ::1 at 2015-10-12 16:52:41 -0500
+
+
+Started GET "/assets/favicon-16x16.png" for ::1 at 2015-10-12 16:52:42 -0500
+
+
+Started GET "/assets/favicon-96x96.png" for ::1 at 2015-10-12 16:52:42 -0500
+
+
+Started GET "/assets/favicon-32x32.png" for ::1 at 2015-10-12 16:52:42 -0500
+
+
+Started GET "/assets/favicon-16x16.png" for ::1 at 2015-10-12 16:52:42 -0500
+
+
+Started GET "/assets/favicon-96x96.png" for ::1 at 2015-10-12 16:52:42 -0500
+
+
+Started GET "/assets/favicon-160x160.png" for ::1 at 2015-10-12 16:52:42 -0500
+
+
+Started GET "/assets/favicon-192x192.png" for ::1 at 2015-10-12 16:52:42 -0500
