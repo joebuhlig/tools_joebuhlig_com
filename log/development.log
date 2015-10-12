@@ -2944,3 +2944,74 @@ Started GET "/assets/favicon-160x160.png" for ::1 at 2015-10-12 16:52:42 -0500
 
 
 Started GET "/assets/favicon-192x192.png" for ::1 at 2015-10-12 16:52:42 -0500
+
+
+Started GET "/" for ::1 at 2015-10-12 17:14:06 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+  Rendered shared/_head.html.erb (187.5ms)
+  Rendered shared/_header.html.erb (11.6ms)
+Completed 200 OK in 224ms (Views: 214.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5aac59f1c901b03729437ae76d9bca91ccea07b8dcd1e25bff5ac94d6a010c2a.css?body=1" for ::1 at 2015-10-12 17:14:07 -0500
+
+
+Started GET "/assets/main.self-ddce9c7204662cadcd68f0d85d206300386997f0b6d0a1f7308597fe0fc6e8da.css?body=1" for ::1 at 2015-10-12 17:14:07 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-12 17:14:07 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-12 17:14:07 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-12 17:14:07 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-12 17:14:07 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-12 17:14:07 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-12 17:14:07 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-12 17:14:07 -0500
+
+
+Started GET "/assets/affiliates.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-12 17:14:07 -0500
+
+
+Started GET "/assets/header_tree-ab2d64b0a5d9050ac80fff36479a00a6219831cf573d29159ac149599308d791.png" for ::1 at 2015-10-12 17:14:07 -0500
+
+
+Started GET "/assets/header_desc-bd7e527717681633c5cf37a4486a3dc0315bafacc966e6e93bbed12f95528312.svg" for ::1 at 2015-10-12 17:14:07 -0500
+
+
+Started GET "/assets/header_title-59e0a943b23b4dadaf494a55771a03cf767a14f0346406331022225bd01ecd6e.svg" for ::1 at 2015-10-12 17:14:07 -0500
+
+
+Started GET "/assets/favicon-32x32.png" for ::1 at 2015-10-12 17:14:07 -0500
+
+
+Started GET "/assets/favicon-16x16.png" for ::1 at 2015-10-12 17:14:07 -0500
+
+
+Started GET "/assets/favicon-96x96.png" for ::1 at 2015-10-12 17:14:08 -0500
+
+
+Started GET "/assets/favicon-32x32.png" for ::1 at 2015-10-12 17:14:08 -0500
+
+
+Started GET "/assets/favicon-16x16.png" for ::1 at 2015-10-12 17:14:08 -0500
+
+
+Started GET "/assets/favicon-96x96.png" for ::1 at 2015-10-12 17:14:08 -0500
+
+
+Started GET "/assets/favicon-160x160.png" for ::1 at 2015-10-12 17:14:08 -0500
+
+
+Started GET "/assets/favicon-192x192.png" for ::1 at 2015-10-12 17:14:08 -0500
