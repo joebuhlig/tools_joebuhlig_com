@@ -3015,3 +3015,19 @@ Started GET "/assets/favicon-160x160.png" for ::1 at 2015-10-12 17:14:08 -0500
 
 
 Started GET "/assets/favicon-192x192.png" for ::1 at 2015-10-12 17:14:08 -0500
+
+
+Started GET "/" for ::1 at 2015-10-13 11:33:15 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+  Rendered shared/_head.html.erb (179.8ms)
+  Rendered shared/_header.html.erb (7.8ms)
+Completed 200 OK in 214ms (Views: 203.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-13 11:33:17 -0500
+Processing by AffiliatesController#index as HTML
+  Rendered affiliates/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_head.html.erb (39.4ms)
+  Rendered shared/_header.html.erb (3.2ms)
+Completed 200 OK in 50ms (Views: 49.9ms | ActiveRecord: 0.0ms)
