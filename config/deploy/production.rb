@@ -6,7 +6,7 @@
 # server 'example.com', user: 'deploy', roles: %w{app db web}, my_property: :my_value
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
-
+server '104.236.248.91', user: 'joebuhlig', roles: %w{app db web}, port: 22
 
 
 # role-based syntax
@@ -31,7 +31,9 @@
 # http://capistranorb.com/documentation/getting-started/configuration/
 # Feel free to add new variables to customise your setup.
 
-
+set :deploy_to, '/var/www/html/tools.joebuhlig.com'
+set :use_sudo, true
+set :ssh_options, {:forward_agent => true}
 
 # Custom SSH Options
 # ==================
