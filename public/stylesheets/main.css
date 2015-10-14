@@ -154,6 +154,11 @@ pre {
 .clear {
   clear: both; }
 
+.center {
+  margin: 0px auto;
+  text-align: center;
+  width: 100%; }
+
 /**
  * Icons
  */
@@ -197,6 +202,9 @@ pre {
   height: 56px;
   margin: 0 auto;
   max-width: 900px; }
+  @media screen and (max-width: 900px) {
+    .site-nav-inner {
+      padding: 0px 10px; } }
 
 .site-nav {
   background-color: #FFFFFF;
@@ -214,7 +222,7 @@ pre {
       margin-left: 10px; }
     .site-nav .page-link:hover {
       text-decoration: none; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     .site-nav {
       position: absolute;
       top: 7px;
@@ -237,7 +245,7 @@ pre {
       .site-nav .trigger {
         clear: both;
         display: none; }
-      .site-nav:hover .trigger {
+      .site-nav .trigger.active {
         display: block;
         padding-bottom: 5px; }
       .site-nav .page-link {
@@ -296,15 +304,15 @@ pre {
     width: 100%;
     z-index: 1; }
   .header-bar .header-spacer {
-    height: 1px;
+    height: 10px;
     position: fixed;
     text-align: center;
-    top: 130.5px;
+    top: 125.5px;
     width: 100%;
     z-index: 5; }
   .header-bar .header-spacer-inner {
     background-color: #FFFFFF;
-    height: 1px;
+    height: 10px;
     margin: 0 auto;
     width: 275px; }
 
