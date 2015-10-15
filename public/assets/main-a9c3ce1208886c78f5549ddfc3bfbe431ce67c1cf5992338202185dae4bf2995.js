@@ -1,8 +1,5 @@
-$(document).on('page:change', function(event) {
-	$('.menu-icon').click(function(event){
-		event.preventDefault();
-		$('.trigger').toggleClass('active');
-	});
+$(document).ready(function(){
+	menu_clickable();
 
 	var topOfContent = $(".page-content").offset().top;
 
@@ -16,3 +13,15 @@ $(document).on('page:change', function(event) {
 	    }
 });
 });
+
+$(document).on('page:change', function(event) {
+	menu_clickable();
+});
+
+function menu_clickable() {
+	$('.menu-icon').click(function(event){
+		event.preventDefault();
+		console.log('triggered');
+		$('.trigger').toggleClass('active');
+	});
+}

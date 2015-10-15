@@ -1,6 +1,7 @@
-$(document).on('page:change', function(event) {
+$(document).ready(function(){
 	$('.menu-icon').click(function(event){
 		event.preventDefault();
+		console.log('triggered');
 		$('.trigger').toggleClass('active');
 	});
 
