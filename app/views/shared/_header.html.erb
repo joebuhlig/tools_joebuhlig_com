@@ -11,7 +11,8 @@
       <div class="trigger">
           <a class="page-link" href="/">Home</a>
           <a class="page-link" href="http://joebuhlig.com">Blog</a>
-          <%= link_to "Affiliates", {controller: "affiliates", action: "index"}, class: "page-link" %>
+          <%= link_to "Affiliates", {controller: "/affiliates", action: "index"}, class: "page-link" %>
+          <% if user_signed_in? %><%= link_to "Sign out", destroy_user_session_path, :method => :delete %><% end %>
       </div>
     </nav>
   </div>
