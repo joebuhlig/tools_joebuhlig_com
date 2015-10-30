@@ -1,1 +1,8 @@
-<div>Does this mean there will be an affiliate program for everything sold here? Certainly!</div>
+<% if user_signed_in? %>
+<div>Does this mean there will be an affiliate program for everything sold here? Certainly! Your user-id is: {{ user.id }}</div>
+<% else %>
+<div>
+	<h2>How it works</h2>
+	<p>You <%= link_to "sign up", new_user_registration_path %> and get paid commission for any sales made from this site.</p>
+</div>
+<% end %>

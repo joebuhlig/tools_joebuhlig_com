@@ -1,0 +1,19 @@
+.notice, .alert {
+	background-color: #7cba01;
+	border-radius: 0px 0px 5px 5px;
+	color: #FFFFFF;
+	left: 50%;
+	margin-left: -125px;
+	position: fixed;
+	text-align: center;
+	top: 0px;
+	width: 250px;
+	z-index: 9999;
+}
+
+.sign-in-out {
+	float:right;
+	font-family: "Cinzel", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 56px;
+}

@@ -7040,3 +7040,2224 @@ Processing by WelcomeController#index as HTML
   Rendered shared/_head.html.erb (38.4ms)
   Rendered shared/_header.html.erb (3.6ms)
 Completed 200 OK in 48ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-28 19:58:43 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (32.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+  Rendered shared/_head.html.erb (335.4ms)
+  Rendered shared/_header.html.erb (12.0ms)
+Completed 200 OK in 378ms (Views: 367.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-1431a1dd330d4f0a4e9f7d66c867f31fcebdfa25b9d3ffeda22a8ed1c60c7a8a.js?body=1" for ::1 at 2015-10-28 19:58:44 -0500
+
+
+Started GET "/assets/main.self-a9400617f1fbc5cc863bd2b91380652b91d5fee8dbcee59bf53d42e82f9e1c61.css?body=1" for ::1 at 2015-10-28 19:58:44 -0500
+
+
+Started GET "/assets/application.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 19:58:44 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 19:58:44 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 19:58:44 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 19:58:44 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 19:58:44 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 19:58:44 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 19:58:44 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 19:58:44 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 19:58:44 -0500
+
+
+Started GET "/" for ::1 at 2015-10-28 19:58:58 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_head.html.erb (39.8ms)
+  Rendered shared/_header.html.erb (3.5ms)
+Completed 200 OK in 49ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 19:58:58 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 19:58:58 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 19:58:58 -0500
+
+
+Started GET "/assets/application.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 19:58:58 -0500
+
+
+Started GET "/assets/main.self-a9400617f1fbc5cc863bd2b91380652b91d5fee8dbcee59bf53d42e82f9e1c61.css?body=1" for ::1 at 2015-10-28 19:58:58 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 19:58:58 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 19:58:58 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 19:58:58 -0500
+
+
+Started GET "/assets/main.self-1431a1dd330d4f0a4e9f7d66c867f31fcebdfa25b9d3ffeda22a8ed1c60c7a8a.js?body=1" for ::1 at 2015-10-28 19:58:58 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 19:58:58 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 19:58:58 -0500
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 19:59:01 -0500
+Processing by AffiliatesController#index as HTML
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 19:59:01 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (22.2ms)
+  Rendered shared/_head.html.erb (59.6ms)
+  Rendered shared/_header.html.erb (6.2ms)
+Completed 200 OK in 149ms (Views: 98.5ms | ActiveRecord: 36.2ms)
+
+
+Started POST "/affiliates/sign_in" for ::1 at 2015-10-28 19:59:06 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xdsWDruykImyA6sA8JhvoYXon72Hu73vHMC7IPSIW1UVlIexVaEL5cCE4ByXaJqmgd7pc4JxM4kYsH4wTSLlhQ==", "user"=>{"email"=>"joe@joebuhlig.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (32.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "joe@joebuhlig.com"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5  [["last_sign_in_at", "2015-10-28 01:38:49.303044"], ["current_sign_in_at", "2015-10-29 00:59:07.000059"], ["sign_in_count", 6], ["updated_at", "2015-10-29 00:59:07.002994"], ["id", 1]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/affiliates
+Completed 302 Found in 142ms (ActiveRecord: 35.8ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 19:59:07 -0500
+Processing by AffiliatesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (0.4ms)
+  Rendered shared/_head.html.erb (61.2ms)
+  Rendered shared/_header.html.erb (2.9ms)
+Completed 200 OK in 74ms (Views: 71.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 19:59:24 -0500
+Processing by AffiliatesController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (0.1ms)
+  Rendered shared/_head.html.erb (49.0ms)
+  Rendered shared/_header.html.erb (2.7ms)
+Completed 200 OK in 63ms (Views: 60.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/main.self-a9400617f1fbc5cc863bd2b91380652b91d5fee8dbcee59bf53d42e82f9e1c61.css?body=1" for ::1 at 2015-10-28 19:59:25 -0500
+
+
+Started GET "/assets/application.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 19:59:25 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 19:59:25 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 19:59:25 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 19:59:25 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 19:59:25 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 19:59:25 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 19:59:25 -0500
+
+
+Started GET "/assets/main.self-1431a1dd330d4f0a4e9f7d66c867f31fcebdfa25b9d3ffeda22a8ed1c60c7a8a.js?body=1" for ::1 at 2015-10-28 19:59:25 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 19:59:25 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 19:59:25 -0500
+
+
+Started DELETE "/affiliates/sign_out" for ::1 at 2015-10-28 19:59:59 -0500
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Xe8I7SyBcYA/xotlU4Convoymbg/7wqDaBlWHE+VAMEeeqxy2TjLj5tetAvdI8I7igZsNcl0ov4e1gaUxXcflQ=="}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-28 19:59:59 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered shared/_head.html.erb (51.4ms)
+  Rendered shared/_header.html.erb (3.2ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-28 20:08:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+  Rendered shared/_head.html.erb (243.9ms)
+  Rendered shared/_header.html.erb (11.4ms)
+Completed 200 OK in 282ms (Views: 271.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-a9400617f1fbc5cc863bd2b91380652b91d5fee8dbcee59bf53d42e82f9e1c61.css?body=1" for ::1 at 2015-10-28 20:08:14 -0500
+
+
+Started GET "/assets/application.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 20:08:14 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:08:14 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:08:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:08:14 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:08:14 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:08:14 -0500
+
+
+Started GET "/assets/main.self-1431a1dd330d4f0a4e9f7d66c867f31fcebdfa25b9d3ffeda22a8ed1c60c7a8a.js?body=1" for ::1 at 2015-10-28 20:08:14 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:08:14 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:08:14 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:08:14 -0500
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:08:17 -0500
+Processing by AffiliatesController#index as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:08:17 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (22.1ms)
+  Rendered shared/_head.html.erb (57.6ms)
+  Rendered shared/_header.html.erb (3.1ms)
+Completed 200 OK in 109ms (Views: 90.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:08:46 -0500
+Processing by AffiliatesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:08:46 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered shared/_head.html.erb (160.3ms)
+  Rendered shared/_header.html.erb (2.7ms)
+Completed 200 OK in 175ms (Views: 173.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-982b7030192a16d4d47ac5cd3b2172888b7477c14e0bbabf896f053150e259bc.js?body=1" for ::1 at 2015-10-28 20:08:47 -0500
+
+
+Started GET "/assets/main.self-a9400617f1fbc5cc863bd2b91380652b91d5fee8dbcee59bf53d42e82f9e1c61.css?body=1" for ::1 at 2015-10-28 20:08:47 -0500
+
+
+Started GET "/assets/application.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 20:08:47 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:08:47 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:08:47 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:08:47 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:08:47 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:08:47 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:08:47 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:08:47 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:08:47 -0500
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:09:39 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (24.9ms)
+  Rendered shared/_head.html.erb (232.3ms)
+  Rendered shared/_header.html.erb (6.8ms)
+Completed 200 OK in 298ms (Views: 275.5ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/main.self-a9400617f1fbc5cc863bd2b91380652b91d5fee8dbcee59bf53d42e82f9e1c61.css?body=1" for ::1 at 2015-10-28 20:09:40 -0500
+
+
+Started GET "/assets/application.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 20:09:40 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:09:40 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:09:40 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:09:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:09:40 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:09:40 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:09:40 -0500
+
+
+Started GET "/assets/main.self-982b7030192a16d4d47ac5cd3b2172888b7477c14e0bbabf896f053150e259bc.js?body=1" for ::1 at 2015-10-28 20:09:40 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:09:40 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:09:40 -0500
+
+
+Started GET "/" for ::1 at 2015-10-28 20:09:45 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_head.html.erb (83.1ms)
+  Rendered shared/_header.html.erb (5.8ms)
+Completed 200 OK in 96ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:09:47 -0500
+Processing by AffiliatesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:09:47 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.0ms)
+  Rendered shared/_head.html.erb (38.2ms)
+  Rendered shared/_header.html.erb (3.5ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:12:41 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AffiliatesController#index as HTML
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:12:41 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.8ms)
+  Rendered shared/_head.html.erb (242.6ms)
+  Rendered shared/_header.html.erb (9.3ms)
+Completed 200 OK in 292ms (Views: 281.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/tools.self-876baa6f4ed73c5a956a32be55cf80be04a98b78fa7dcb3dec2053ebca7b8296.css?body=1" for ::1 at 2015-10-28 20:12:42 -0500
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-28 20:12:42 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:12:42 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:12:42 -0500
+
+
+Started GET "/assets/main.self-a9400617f1fbc5cc863bd2b91380652b91d5fee8dbcee59bf53d42e82f9e1c61.css?body=1" for ::1 at 2015-10-28 20:12:42 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:12:42 -0500
+
+
+Started GET "/assets/main.self-982b7030192a16d4d47ac5cd3b2172888b7477c14e0bbabf896f053150e259bc.js?body=1" for ::1 at 2015-10-28 20:12:42 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:12:42 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:12:42 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:12:42 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:12:42 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:12:42 -0500
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:12:46 -0500
+Processing by AffiliatesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:12:46 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.7ms)
+  Rendered shared/_head.html.erb (81.4ms)
+  Rendered shared/_header.html.erb (2.7ms)
+Completed 200 OK in 98ms (Views: 96.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-28 20:12:48 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_head.html.erb (46.4ms)
+  Rendered shared/_header.html.erb (3.7ms)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:12:50 -0500
+Processing by AffiliatesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:12:50 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.1ms)
+  Rendered shared/_head.html.erb (48.3ms)
+  Rendered shared/_header.html.erb (3.3ms)
+Completed 200 OK in 64ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:14:58 -0500
+Processing by AffiliatesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:14:58 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.4ms)
+  Rendered shared/_head.html.erb (82.1ms)
+  Rendered shared/_header.html.erb (2.8ms)
+Completed 200 OK in 95ms (Views: 94.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tools.self-341ce830c6e4ce6416ff453405af08da38fb4dba37e05a08f18a3233394aa371.css?body=1" for ::1 at 2015-10-28 20:14:59 -0500
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-28 20:14:59 -0500
+
+
+Started GET "/assets/main.self-a9400617f1fbc5cc863bd2b91380652b91d5fee8dbcee59bf53d42e82f9e1c61.css?body=1" for ::1 at 2015-10-28 20:14:59 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:14:59 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:14:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:14:59 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:14:59 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:14:59 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:14:59 -0500
+
+
+Started GET "/assets/main.self-982b7030192a16d4d47ac5cd3b2172888b7477c14e0bbabf896f053150e259bc.js?body=1" for ::1 at 2015-10-28 20:14:59 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:14:59 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:14:59 -0500
+
+
+Started GET "/" for ::1 at 2015-10-28 20:15:02 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_head.html.erb (49.1ms)
+  Rendered shared/_header.html.erb (3.1ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:15:04 -0500
+Processing by AffiliatesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:15:04 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.8ms)
+  Rendered shared/_head.html.erb (38.1ms)
+  Rendered shared/_header.html.erb (2.5ms)
+Completed 200 OK in 51ms (Views: 50.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-28 20:15:38 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_head.html.erb (169.8ms)
+  Rendered shared/_header.html.erb (3.0ms)
+Completed 200 OK in 179ms (Views: 179.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-28 20:15:39 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_head.html.erb (54.7ms)
+  Rendered shared/_header.html.erb (4.3ms)
+Completed 200 OK in 68ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-28 20:15:39 -0500
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:15:40 -0500
+Processing by AffiliatesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:15:40 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.3ms)
+  Rendered shared/_head.html.erb (46.3ms)
+  Rendered shared/_header.html.erb (11.1ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-28 20:15:47 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_head.html.erb (49.7ms)
+  Rendered shared/_header.html.erb (2.8ms)
+Completed 200 OK in 61ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:15:48 -0500
+Processing by AffiliatesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:15:48 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.4ms)
+  Rendered shared/_head.html.erb (52.1ms)
+  Rendered shared/_header.html.erb (4.5ms)
+Completed 200 OK in 70ms (Views: 68.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-28 20:18:29 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered shared/_head.html.erb (47.2ms)
+  Rendered shared/_header.html.erb (4.8ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:18:30 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (0.9ms)
+  Rendered shared/_head.html.erb (44.4ms)
+  Rendered shared/_header.html.erb (3.0ms)
+Completed 200 OK in 60ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:23:34 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (1.1ms)
+  Rendered shared/_head.html.erb (48.5ms)
+  Rendered shared/_header.html.erb (3.8ms)
+Completed 200 OK in 62ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-a9400617f1fbc5cc863bd2b91380652b91d5fee8dbcee59bf53d42e82f9e1c61.css?body=1" for ::1 at 2015-10-28 20:23:34 -0500
+
+
+Started GET "/assets/tools.self-341ce830c6e4ce6416ff453405af08da38fb4dba37e05a08f18a3233394aa371.css?body=1" for ::1 at 2015-10-28 20:23:34 -0500
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-28 20:23:34 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:23:34 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:23:34 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:23:34 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:23:34 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:23:34 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:23:34 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:23:34 -0500
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-28 20:23:34 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:23:34 -0500
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:23:39 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.2ms)
+  Rendered shared/_head.html.erb (52.1ms)
+  Rendered shared/_header.html.erb (3.6ms)
+Completed 200 OK in 75ms (Views: 67.1ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/affiliates/sign_in" for ::1 at 2015-10-28 20:23:53 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N3gNv2wdsLANO+K1cJkET/fL8YiKNgOS7XL+8lFOBh9YZ+CvHMH8tMD0XqkL246xmfkiapdkwry45qX+Sn+iNw==", "user"=>{"email"=>"joe@joebuhlig.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "joe@joebuhlig.com"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5  [["last_sign_in_at", "2015-10-29 00:59:07.000059"], ["current_sign_in_at", "2015-10-29 01:23:53.858664"], ["sign_in_count", 7], ["updated_at", "2015-10-29 01:23:53.860690"], ["id", 1]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/affiliates
+Completed 302 Found in 100ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:23:53 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered affiliates/index.html.erb within layouts/application (1.9ms)
+  Rendered shared/_head.html.erb (45.4ms)
+  Rendered shared/_header.html.erb (3.4ms)
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:26:15 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered affiliates/index.html.erb within layouts/application (1.3ms)
+  Rendered shared/_head.html.erb (48.0ms)
+  Rendered shared/_header.html.erb (3.9ms)
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/tools.self-341ce830c6e4ce6416ff453405af08da38fb4dba37e05a08f18a3233394aa371.css?body=1" for ::1 at 2015-10-28 20:26:15 -0500
+
+
+Started GET "/assets/main.self-a9400617f1fbc5cc863bd2b91380652b91d5fee8dbcee59bf53d42e82f9e1c61.css?body=1" for ::1 at 2015-10-28 20:26:15 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:26:15 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:26:15 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:26:15 -0500
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-28 20:26:15 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:26:15 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:26:15 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:26:15 -0500
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-28 20:26:15 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:26:15 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:26:15 -0500
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:28:04 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered affiliates/index.html.erb within layouts/application (1.1ms)
+  Rendered shared/_head.html.erb (46.0ms)
+  Rendered shared/_header.html.erb (4.2ms)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-28 20:28:04 -0500
+
+
+Started GET "/assets/main.self-a9400617f1fbc5cc863bd2b91380652b91d5fee8dbcee59bf53d42e82f9e1c61.css?body=1" for ::1 at 2015-10-28 20:28:04 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:28:04 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:28:04 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:28:04 -0500
+
+
+Started GET "/assets/tools.self-341ce830c6e4ce6416ff453405af08da38fb4dba37e05a08f18a3233394aa371.css?body=1" for ::1 at 2015-10-28 20:28:04 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:28:04 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:28:04 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:28:04 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:28:04 -0500
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-28 20:28:04 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:28:04 -0500
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:31:53 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered affiliates/index.html.erb within layouts/application (2.5ms)
+  Rendered shared/_head.html.erb (80.7ms)
+  Rendered shared/_header.html.erb (3.5ms)
+Completed 200 OK in 95ms (Views: 93.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/main.self-a9400617f1fbc5cc863bd2b91380652b91d5fee8dbcee59bf53d42e82f9e1c61.css?body=1" for ::1 at 2015-10-28 20:31:54 -0500
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-28 20:31:54 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:31:54 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:31:54 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:31:54 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:31:54 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:31:54 -0500
+
+
+Started GET "/assets/tools.self-7df71a1227c15739897917069e5637e0d3c17481f8a1e2dc4383dc406597e4d7.css?body=1" for ::1 at 2015-10-28 20:31:54 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:31:54 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:31:54 -0500
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-28 20:31:54 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:31:54 -0500
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:32:26 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered affiliates/index.html.erb within layouts/application (1.2ms)
+  Rendered shared/_head.html.erb (82.0ms)
+  Rendered shared/_header.html.erb (5.8ms)
+Completed 200 OK in 98ms (Views: 97.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/tools.self-3e20bced7ae8753a9d1a961a0c0c76f7ff9f0028de8a6ac19f4de81ad563d334.css?body=1" for ::1 at 2015-10-28 20:32:26 -0500
+
+
+Started GET "/assets/main.self-a9400617f1fbc5cc863bd2b91380652b91d5fee8dbcee59bf53d42e82f9e1c61.css?body=1" for ::1 at 2015-10-28 20:32:26 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:32:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:32:26 -0500
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-28 20:32:26 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:32:26 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:32:26 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:32:26 -0500
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-28 20:32:26 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:32:26 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:32:26 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:32:26 -0500
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:32:29 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered affiliates/index.html.erb within layouts/application (1.1ms)
+  Rendered shared/_head.html.erb (41.9ms)
+  Rendered shared/_header.html.erb (3.7ms)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/tools.self-3e20bced7ae8753a9d1a961a0c0c76f7ff9f0028de8a6ac19f4de81ad563d334.css?body=1" for ::1 at 2015-10-28 20:32:29 -0500
+
+
+Started GET "/assets/main.self-a9400617f1fbc5cc863bd2b91380652b91d5fee8dbcee59bf53d42e82f9e1c61.css?body=1" for ::1 at 2015-10-28 20:32:29 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:32:29 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:32:29 -0500
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-28 20:32:29 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:32:29 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:32:29 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:32:29 -0500
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-28 20:32:29 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:32:29 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:32:29 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:32:29 -0500
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:32:42 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered affiliates/index.html.erb within layouts/application (1.1ms)
+  Rendered shared/_head.html.erb (111.6ms)
+  Rendered shared/_header.html.erb (4.7ms)
+Completed 200 OK in 124ms (Views: 123.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/main.self-a9400617f1fbc5cc863bd2b91380652b91d5fee8dbcee59bf53d42e82f9e1c61.css?body=1" for ::1 at 2015-10-28 20:32:42 -0500
+
+
+Started GET "/assets/tools.self-3381055b8baea8fe6c2b5d3eb8d77d3b2e2abb9a9cd083b0fba26c32cf021a53.css?body=1" for ::1 at 2015-10-28 20:32:42 -0500
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-28 20:32:42 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:32:42 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:32:42 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:32:42 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:32:42 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:32:42 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:32:43 -0500
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-28 20:32:43 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:32:43 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:32:43 -0500
+
+
+Started DELETE "/affiliates/sign_out" for ::1 at 2015-10-28 20:32:48 -0500
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"CGiA6x252hfrJFGmzXKOAfdC4tWRFe77HNCVxWWJ51nuUXYu4z/MkNFT2sqzwBiiD0NFEDyXM1gZtKTVusvIkA=="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2015-10-28 20:32:48 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered shared/_head.html.erb (51.9ms)
+  Rendered shared/_header.html.erb (3.2ms)
+Completed 200 OK in 64ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:32:53 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (0.8ms)
+  Rendered shared/_head.html.erb (52.9ms)
+  Rendered shared/_header.html.erb (3.3ms)
+Completed 200 OK in 65ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:32:54 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.2ms)
+  Rendered shared/_head.html.erb (48.4ms)
+  Rendered shared/_header.html.erb (3.0ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:38:07 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (34.9ms)
+  Rendered shared/_head.html.erb (321.5ms)
+  Rendered shared/_header.html.erb (9.1ms)
+Completed 200 OK in 407ms (Views: 380.8ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/main.self-66db9ca91c7e4d0e906358cf60d2f064485e5d079c96d10fabf941c1ad22c504.css?body=1" for ::1 at 2015-10-28 20:38:08 -0500
+
+
+Started GET "/assets/tools.self-3381055b8baea8fe6c2b5d3eb8d77d3b2e2abb9a9cd083b0fba26c32cf021a53.css?body=1" for ::1 at 2015-10-28 20:38:08 -0500
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-28 20:38:08 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:38:08 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:38:08 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:38:08 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:38:08 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:38:08 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:38:08 -0500
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-28 20:38:08 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:38:08 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:38:08 -0500
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:38:08 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.3ms)
+  Rendered shared/_head.html.erb (62.4ms)
+  Rendered shared/_header.html.erb (3.0ms)
+Completed 200 OK in 85ms (Views: 83.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tools.self-3381055b8baea8fe6c2b5d3eb8d77d3b2e2abb9a9cd083b0fba26c32cf021a53.css?body=1" for ::1 at 2015-10-28 20:38:09 -0500
+
+
+Started GET "/assets/main.self-66db9ca91c7e4d0e906358cf60d2f064485e5d079c96d10fabf941c1ad22c504.css?body=1" for ::1 at 2015-10-28 20:38:09 -0500
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-28 20:38:09 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:38:09 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:38:09 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:38:09 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:38:09 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:38:09 -0500
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-28 20:38:09 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:38:09 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:38:09 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:38:09 -0500
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:38:21 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (0.7ms)
+  Rendered shared/_head.html.erb (43.0ms)
+  Rendered shared/_header.html.erb (3.3ms)
+Completed 200 OK in 55ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:39:09 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.5ms)
+  Rendered shared/_head.html.erb (43.4ms)
+  Rendered shared/_header.html.erb (10.6ms)
+Completed 200 OK in 66ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:39:22 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (0.5ms)
+  Rendered shared/_head.html.erb (51.3ms)
+  Rendered shared/_header.html.erb (3.1ms)
+Completed 200 OK in 63ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:41:30 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (0.6ms)
+  Rendered shared/_head.html.erb (44.3ms)
+  Rendered shared/_header.html.erb (2.9ms)
+Completed 200 OK in 54ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-66db9ca91c7e4d0e906358cf60d2f064485e5d079c96d10fabf941c1ad22c504.css?body=1" for ::1 at 2015-10-28 20:41:30 -0500
+
+
+Started GET "/assets/tools.self-3381055b8baea8fe6c2b5d3eb8d77d3b2e2abb9a9cd083b0fba26c32cf021a53.css?body=1" for ::1 at 2015-10-28 20:41:30 -0500
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-28 20:41:30 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:41:30 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:41:30 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:41:30 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:41:30 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:41:30 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:41:30 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:41:30 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:41:30 -0500
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-28 20:41:31 -0500
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:41:40 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_head.html.erb (57.5ms)
+  Rendered shared/_header.html.erb (5.2ms)
+Completed 200 OK in 71ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-28 20:41:40 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:41:41 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:41:41 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:41:41 -0500
+
+
+Started GET "/assets/main.self-66db9ca91c7e4d0e906358cf60d2f064485e5d079c96d10fabf941c1ad22c504.css?body=1" for ::1 at 2015-10-28 20:41:41 -0500
+
+
+Started GET "/assets/tools.self-3381055b8baea8fe6c2b5d3eb8d77d3b2e2abb9a9cd083b0fba26c32cf021a53.css?body=1" for ::1 at 2015-10-28 20:41:41 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:41:41 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:41:41 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:41:41 -0500
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-28 20:41:41 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:41:41 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:41:41 -0500
+
+
+Started GET "/" for ::1 at 2015-10-28 20:41:43 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_head.html.erb (42.7ms)
+  Rendered shared/_header.html.erb (3.1ms)
+Completed 200 OK in 54ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:41:45 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (0.7ms)
+  Rendered shared/_head.html.erb (43.8ms)
+  Rendered shared/_header.html.erb (2.3ms)
+Completed 200 OK in 54ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_up" for ::1 at 2015-10-28 20:41:47 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.2ms)
+  Rendered shared/_head.html.erb (51.7ms)
+  Rendered shared/_header.html.erb (3.2ms)
+Completed 200 OK in 68ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-28 20:41:49 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered shared/_head.html.erb (43.6ms)
+  Rendered shared/_header.html.erb (3.3ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-28 20:42:40 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+  Rendered shared/_head.html.erb (271.6ms)
+  Rendered shared/_header.html.erb (12.4ms)
+Completed 200 OK in 313ms (Views: 303.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tools.self-3381055b8baea8fe6c2b5d3eb8d77d3b2e2abb9a9cd083b0fba26c32cf021a53.css?body=1" for ::1 at 2015-10-28 20:42:41 -0500
+
+
+Started GET "/assets/main.self-66db9ca91c7e4d0e906358cf60d2f064485e5d079c96d10fabf941c1ad22c504.css?body=1" for ::1 at 2015-10-28 20:42:41 -0500
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-28 20:42:41 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:42:41 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:42:41 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:42:41 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:42:41 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:42:41 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:42:41 -0500
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-28 20:42:41 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:42:41 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:42:41 -0500
+
+
+Started GET "/" for ::1 at 2015-10-28 20:43:06 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_head.html.erb (89.0ms)
+  Rendered shared/_header.html.erb (3.9ms)
+Completed 200 OK in 102ms (Views: 100.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tools.self-3381055b8baea8fe6c2b5d3eb8d77d3b2e2abb9a9cd083b0fba26c32cf021a53.css?body=1" for ::1 at 2015-10-28 20:43:07 -0500
+
+
+Started GET "/assets/main.self-66db9ca91c7e4d0e906358cf60d2f064485e5d079c96d10fabf941c1ad22c504.css?body=1" for ::1 at 2015-10-28 20:43:07 -0500
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-28 20:43:07 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:43:07 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:43:07 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:43:07 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:43:07 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:43:07 -0500
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-28 20:43:07 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:43:07 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:43:07 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:43:07 -0500
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:43:14 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (0.6ms)
+  Rendered shared/_head.html.erb (40.1ms)
+  Rendered shared/_header.html.erb (3.6ms)
+Completed 200 OK in 53ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:43:17 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (28.3ms)
+  Rendered shared/_head.html.erb (47.8ms)
+  Rendered shared/_header.html.erb (3.4ms)
+Completed 200 OK in 102ms (Views: 88.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-28 20:43:19 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (0.6ms)
+  Rendered shared/_head.html.erb (55.9ms)
+  Rendered shared/_header.html.erb (3.1ms)
+Completed 200 OK in 68ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_up" for ::1 at 2015-10-28 20:43:21 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.5ms)
+  Rendered shared/_head.html.erb (54.1ms)
+  Rendered shared/_header.html.erb (2.8ms)
+Completed 200 OK in 69ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:43:26 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.9ms)
+  Rendered shared/_head.html.erb (45.3ms)
+  Rendered shared/_header.html.erb (3.5ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/affiliates/sign_in" for ::1 at 2015-10-28 20:43:33 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"X0nxBZNNj/E7mxZ9HJuP5yu5rFIddL/0iZoi9jlD7AC7Z5DJ0BAWoi2YydEYAb9xOpqQ2E6SWxo/cKqtNLiQkw==", "user"=>{"email"=>"joe@joebuhlig.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "joe@joebuhlig.com"]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5  [["last_sign_in_at", "2015-10-29 01:23:53.858664"], ["current_sign_in_at", "2015-10-29 01:43:33.501645"], ["sign_in_count", 8], ["updated_at", "2015-10-29 01:43:33.504135"], ["id", 1]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 102ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-28 20:43:33 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered shared/_head.html.erb (56.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered shared/_header.html.erb (4.7ms)
+Completed 200 OK in 70ms (Views: 68.8ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/affiliates/sign_out" for ::1 at 2015-10-28 20:43:41 -0500
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"cNE2J9vo4JhOQSdbQu/+PFhrkVy92Q+x64l9J0Pco4qBTLGgmUtLWxVUtefXEgwGXoSjDbHZ4JQ+CeZ7FKZ4gA=="}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2015-10-28 20:43:41 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_head.html.erb (45.1ms)
+  Rendered shared/_header.html.erb (3.0ms)
+Completed 200 OK in 57ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-28 20:44:46 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_head.html.erb (77.5ms)
+  Rendered shared/_header.html.erb (5.4ms)
+Completed 200 OK in 89ms (Views: 88.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-66db9ca91c7e4d0e906358cf60d2f064485e5d079c96d10fabf941c1ad22c504.css?body=1" for ::1 at 2015-10-28 20:44:47 -0500
+
+
+Started GET "/assets/tools.self-b79a4231b93ce10b4f759516067d092a133286388c3f9e7d48dd1a28dfded21c.css?body=1" for ::1 at 2015-10-28 20:44:47 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 20:44:47 -0500
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-28 20:44:47 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 20:44:47 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-28 20:44:47 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 20:44:47 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-28 20:44:47 -0500
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-28 20:44:47 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:44:47 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 20:44:47 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-28 20:44:47 -0500
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-28 20:44:49 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.8ms)
+  Rendered shared/_head.html.erb (43.6ms)
+  Rendered shared/_header.html.erb (3.2ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-28 20:44:57 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_head.html.erb (48.0ms)
+  Rendered shared/_header.html.erb (3.7ms)
+Completed 200 OK in 58ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 06:05:37 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered shared/_head.html.erb (100.3ms)
+  Rendered shared/_header.html.erb (5.4ms)
+Completed 200 OK in 117ms (Views: 116.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 19:36:13 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (31.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+  Rendered shared/_head.html.erb (304.8ms)
+  Rendered shared/_header.html.erb (16.2ms)
+Completed 200 OK in 349ms (Views: 338.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 19:36:14 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-29 19:36:14 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-29 19:36:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 19:36:14 -0500
+
+
+Started GET "/assets/tools.self-b79a4231b93ce10b4f759516067d092a133286388c3f9e7d48dd1a28dfded21c.css?body=1" for ::1 at 2015-10-29 19:36:14 -0500
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-29 19:36:14 -0500
+
+
+Started GET "/assets/main.self-66db9ca91c7e4d0e906358cf60d2f064485e5d079c96d10fabf941c1ad22c504.css?body=1" for ::1 at 2015-10-29 19:36:14 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-29 19:36:14 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-29 19:36:14 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-29 19:36:14 -0500
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-29 19:36:14 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-29 19:36:14 -0500
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-29 19:36:18 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (52.2ms)
+  Rendered shared/_head.html.erb (73.2ms)
+  Rendered shared/_header.html.erb (4.3ms)
+Completed 200 OK in 188ms (Views: 137.9ms | ActiveRecord: 39.2ms)
+
+
+Started GET "/affiliates/sign_up" for ::1 at 2015-10-29 19:38:29 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.2ms)
+  Rendered shared/_head.html.erb (73.9ms)
+  Rendered shared/_header.html.erb (4.2ms)
+Completed 200 OK in 97ms (Views: 95.3ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddAffiliateId (20151030004128)
+  [1m[35m (15.8ms)[0m  BEGIN
+  [1m[36mSQL (34.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20151030004128"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (34.4ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (2.0ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddAffiliateId (20151030004129)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (5.2ms)[0m  [1mALTER TABLE "users" ADD "affiliate_id" character varying[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20151030004129"]]
+  [1m[36m (15.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (2.1ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+
+
+Started GET "/affiliates" for ::1 at 2015-10-29 19:59:47 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (4.7ms)
+  Rendered shared/_head.html.erb (239.7ms)
+  Rendered shared/_header.html.erb (8.3ms)
+Completed 200 OK in 278ms (Views: 269.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-29 19:59:50 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (28.5ms)
+  Rendered shared/_head.html.erb (69.8ms)
+  Rendered shared/_header.html.erb (4.0ms)
+Completed 200 OK in 124ms (Views: 111.3ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/affiliates/sign_in" for ::1 at 2015-10-29 19:59:57 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GUsZEeAuLE4jjHx8o/6Td/8VTD/SFZnDyc8zldcNYHRCOpgVslKzHC4FAkOM6GeS69FEcW/iNR5RRFsvmaA0Aw==", "user"=>{"email"=>"joe@joebuhlig.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (2.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "joe@joebuhlig.com"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5  [["last_sign_in_at", "2015-10-29 01:43:33.501645"], ["current_sign_in_at", "2015-10-30 00:59:57.442022"], ["sign_in_count", 9], ["updated_at", "2015-10-30 00:59:57.445326"], ["id", 1]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 106ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 19:59:57 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_head.html.erb (78.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered shared/_header.html.erb (8.0ms)
+Completed 200 OK in 96ms (Views: 94.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-29 20:00:01 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered affiliates/index.html.erb within layouts/application (1.3ms)
+  Rendered shared/_head.html.erb (55.8ms)
+  Rendered shared/_header.html.erb (3.0ms)
+Completed 200 OK in 68ms (Views: 66.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 20:05:22 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+  Rendered shared/_head.html.erb (240.1ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered shared/_header.html.erb (28.2ms)
+Completed 200 OK in 296ms (Views: 284.0ms | ActiveRecord: 3.8ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2015-10-29 20:05:24 -0500
+Processing by Affiliates::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"2ZuGRCxmIhnWCtnnW1EGfkDERZIJ/9LRcnzcP0IvqZSxHjkCI2+hVXtnvBJR0fpObED763PNNWRYpirbY+hNMg=="}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 20:05:24 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_head.html.erb (75.2ms)
+  Rendered shared/_header.html.erb (9.3ms)
+Completed 200 OK in 92ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-29 20:05:26 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (0.8ms)
+  Rendered shared/_head.html.erb (78.3ms)
+  Rendered shared/_header.html.erb (6.1ms)
+Completed 200 OK in 95ms (Views: 94.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-10-29 20:05:33 -0500
+Processing by Affiliates::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (29.3ms)
+  Rendered shared/_head.html.erb (47.4ms)
+  Rendered shared/_header.html.erb (3.7ms)
+Completed 200 OK in 95ms (Views: 92.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-29 20:05:38 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (0.4ms)
+  Rendered shared/_head.html.erb (49.8ms)
+  Rendered shared/_header.html.erb (3.3ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-29 20:06:29 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (5.6ms)
+  Rendered shared/_head.html.erb (251.5ms)
+  Rendered shared/_header.html.erb (7.8ms)
+Completed 200 OK in 290ms (Views: 280.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 20:06:31 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_head.html.erb (50.6ms)
+  Rendered shared/_header.html.erb (3.0ms)
+Completed 200 OK in 61ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-29 20:06:33 -0500
+Processing by Affiliates::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (34.9ms)
+  Rendered shared/_head.html.erb (78.9ms)
+  Rendered shared/_header.html.erb (4.6ms)
+Completed 200 OK in 146ms (Views: 129.6ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/affiliates/sign_in" for ::1 at 2015-10-29 20:06:48 -0500
+Processing by Affiliates::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dhBcbER5+QcDpO554EJJcUH+fZy0sX/QgAZ6HY1iLH4dMkqIk03IEwXPvdc192D21C7Eefq/DEIVPkoB/o50MQ==", "user"=>{"email"=>"joe@joebuhlig.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "joe@joebuhlig.com"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5  [["last_sign_in_at", "2015-10-30 00:59:57.442022"], ["current_sign_in_at", "2015-10-30 01:06:49.033007"], ["sign_in_count", 10], ["updated_at", "2015-10-30 01:06:49.035700"], ["id", 1]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 106ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 20:06:49 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_head.html.erb (52.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered shared/_header.html.erb (4.9ms)
+Completed 200 OK in 64ms (Views: 63.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 20:15:53 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+  Rendered shared/_head.html.erb (252.0ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered shared/_header.html.erb (26.4ms)
+Completed 200 OK in 307ms (Views: 296.5ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 20:15:54 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered shared/_head.html.erb (131.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_header.html.erb (9.7ms)
+Completed 200 OK in 151ms (Views: 149.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/tools.self-b79a4231b93ce10b4f759516067d092a133286388c3f9e7d48dd1a28dfded21c.css?body=1" for ::1 at 2015-10-29 20:15:55 -0500
+
+
+Started GET "/assets/main.self-66db9ca91c7e4d0e906358cf60d2f064485e5d079c96d10fabf941c1ad22c504.css?body=1" for ::1 at 2015-10-29 20:15:55 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-29 20:15:55 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 20:15:55 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-29 20:15:55 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 20:15:55 -0500
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-29 20:15:55 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-29 20:15:55 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-29 20:15:55 -0500
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-29 20:15:55 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-29 20:15:55 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-29 20:15:55 -0500
+
+
+Started DELETE "/affiliates/sign_out" for ::1 at 2015-10-29 20:15:58 -0500
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"U4jRtBAxoemo4VNpPEc1rKVr+yUQkO9JY+P5Uxm05M5DtiOtq+SPJ9gL68MNiwqacaYF+VnueH7CyZEggIJ3zw=="}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 15ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 20:15:58 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_head.html.erb (50.5ms)
+  Rendered shared/_header.html.erb (6.2ms)
+Completed 200 OK in 63ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-29 20:16:00 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (0.9ms)
+  Rendered shared/_head.html.erb (41.6ms)
+  Rendered shared/_header.html.erb (2.6ms)
+Completed 200 OK in 55ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 20:16:02 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered shared/_head.html.erb (71.8ms)
+  Rendered shared/_header.html.erb (3.4ms)
+Completed 200 OK in 86ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-29 20:16:03 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (18.8ms)
+  Rendered shared/_head.html.erb (51.6ms)
+  Rendered shared/_header.html.erb (3.4ms)
+Completed 200 OK in 85ms (Views: 81.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/affiliates/sign_in" for ::1 at 2015-10-29 20:16:10 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KCR1RVz3dawNlp3Xqw/RDNQM6IBW8qx4xFgvO74NCKkdfEmpHb218ojZvur2r/Fy5TvXPjm23N08e8qKtMfJfg==", "user"=>{"email"=>"joe@joebuhlig.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "joe@joebuhlig.com"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["last_sign_in_at", "2015-10-30 01:06:49.033007"], ["current_sign_in_at", "2015-10-30 01:16:10.128529"], ["sign_in_count", 11], ["updated_at", "2015-10-30 01:16:10.130404"], ["id", 1]]
+  [1m[35m (1.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 91ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 20:16:10 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_head.html.erb (52.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_header.html.erb (4.8ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-29 20:21:15 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered affiliates/index.html.erb within layouts/application (19.8ms)
+  Rendered shared/_head.html.erb (246.8ms)
+  Rendered shared/_header.html.erb (9.1ms)
+Completed 200 OK in 301ms (Views: 288.4ms | ActiveRecord: 3.4ms)
+
+
+Started DELETE "/affiliates/sign_out" for ::1 at 2015-10-29 20:21:19 -0500
+Processing by Affiliates::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"bbSO7TUiXxB9Ka9GfLg7ABOiTmCRs90LeJkVuoHaVBI3N2quPPB8Hl3vhxMEYlrZtZkhmrRpcVydMCCXXCQ2+A=="}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 18ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 20:21:19 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_head.html.erb (69.2ms)
+  Rendered shared/_header.html.erb (9.5ms)
+Completed 200 OK in 86ms (Views: 85.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-29 20:21:23 -0500
+Processing by Affiliates::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (34.9ms)
+  Rendered shared/_head.html.erb (84.1ms)
+  Rendered shared/_header.html.erb (3.2ms)
+Completed 200 OK in 144ms (Views: 136.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/affiliates/sign_in" for ::1 at 2015-10-29 20:21:28 -0500
+Processing by Affiliates::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eP6owIpkJJrrch3PR8RlVdYyvxwj8Ski2htnF9PTaJMmsPWfB6a5wRaIPFGxOesVx4/hh3PKqiRFaSj22ZYAXQ==", "user"=>{"email"=>"joe@joebuhlig.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "joe@joebuhlig.com"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5  [["last_sign_in_at", "2015-10-30 01:16:10.128529"], ["current_sign_in_at", "2015-10-30 01:21:28.839542"], ["sign_in_count", 12], ["updated_at", "2015-10-30 01:21:28.841439"], ["id", 1]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 92ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 20:21:28 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_head.html.erb (49.8ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered shared/_header.html.erb (4.3ms)
+Completed 200 OK in 61ms (Views: 59.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-29 20:22:06 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered affiliates/index.html.erb within layouts/application (19.2ms)
+  Rendered shared/_head.html.erb (249.3ms)
+  Rendered shared/_header.html.erb (10.7ms)
+Completed 200 OK in 303ms (Views: 291.0ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 20:22:07 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_head.html.erb (49.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_header.html.erb (25.3ms)
+Completed 200 OK in 82ms (Views: 80.9ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/affiliates/sign_out" for ::1 at 2015-10-29 20:22:09 -0500
+Processing by Affiliates::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"xI/tvMb9VlRzo5GEDq3ygMXwYiU9TFowTmbagpognj7nPHq4DUNmp8yQoCUJXrmTWgJU18ePZlpWranMcb8rcg=="}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 14ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 20:22:09 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_head.html.erb (72.3ms)
+  Rendered shared/_header.html.erb (10.3ms)
+Completed 200 OK in 89ms (Views: 88.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-10-29 20:22:11 -0500
+Processing by Affiliates::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (20.7ms)
+  Rendered shared/_head.html.erb (60.3ms)
+  Rendered shared/_header.html.erb (3.3ms)
+Completed 200 OK in 98ms (Views: 95.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/affiliates/sign_in" for ::1 at 2015-10-29 20:22:16 -0500
+Processing by Affiliates::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cl0MBIH3NjegBdAlZ6e1WoFfIE0Z4MtxjHCxQv/j/uAkVvlmhqtC8esnYpr0z5bZBo9aQNdTcj2p4wXi9yMk9Q==", "user"=>{"email"=>"joe@joebuhlig.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "joe@joebuhlig.com"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["last_sign_in_at", "2015-10-30 01:21:28.839542"], ["current_sign_in_at", "2015-10-30 01:22:16.842298"], ["sign_in_count", 13], ["updated_at", "2015-10-30 01:22:16.844196"], ["id", 1]]
+  [1m[35m (1.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/affiliates
+Completed 302 Found in 94ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-29 20:22:16 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered affiliates/index.html.erb within layouts/application (1.6ms)
+  Rendered shared/_head.html.erb (42.8ms)
+  Rendered shared/_header.html.erb (3.3ms)
+Completed 200 OK in 54ms (Views: 52.8ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/affiliates/sign_out" for ::1 at 2015-10-29 20:22:22 -0500
+Processing by Affiliates::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"x7hIed2tqFxVQx9WpuJS0y1+vovD3E5fcRoOlKFnHvUq9JYanv0gALI0dFO0FWz6jUn55EgkzHcq4diBceDDIA=="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 20:22:22 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  Rendered shared/_head.html.erb (47.6ms)
+  Rendered shared/_header.html.erb (3.9ms)
+Completed 200 OK in 57ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-29 20:40:50 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (5.3ms)
+  Rendered shared/_head.html.erb (237.7ms)
+  Rendered shared/_header.html.erb (8.3ms)
+Completed 200 OK in 278ms (Views: 269.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_up" for ::1 at 2015-10-29 20:40:54 -0500
+
+SyntaxError (/Users/joebuhlig/Codebase/tools_joebuhlig_com/app/controllers/affiliates/registrations_controller.rb:63: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/affiliates/registrations_controller.rb:63: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (49.3ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (42.0ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (91.4ms)
+
+
+Started GET "/affiliates/sign_up" for ::1 at 2015-10-29 20:40:54 -0500
+
+SyntaxError (/Users/joebuhlig/Codebase/tools_joebuhlig_com/app/controllers/affiliates/registrations_controller.rb:63: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/affiliates/registrations_controller.rb:63: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.7ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (41.9ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/joebuhlig/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (91.3ms)
+
+
+Started GET "/affiliates/sign_up" for ::1 at 2015-10-29 20:42:25 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Affiliates::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (29.9ms)
+  Rendered shared/_head.html.erb (234.8ms)
+  Rendered shared/_header.html.erb (9.3ms)
+Completed 200 OK in 316ms (Views: 294.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/main.self-66db9ca91c7e4d0e906358cf60d2f064485e5d079c96d10fabf941c1ad22c504.css?body=1" for ::1 at 2015-10-29 20:42:26 -0500
+
+
+Started GET "/assets/tools.self-b79a4231b93ce10b4f759516067d092a133286388c3f9e7d48dd1a28dfded21c.css?body=1" for ::1 at 2015-10-29 20:42:26 -0500
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-10-29 20:42:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-29 20:42:26 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-29 20:42:26 -0500
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-10-29 20:42:26 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-29 20:42:26 -0500
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-29 20:42:26 -0500
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-10-29 20:42:26 -0500
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-10-29 20:42:26 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-29 20:42:26 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-10-29 20:42:26 -0500
+
+
+Started POST "/affiliates" for ::1 at 2015-10-29 20:42:34 -0500
+Processing by Affiliates::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gG8KxbdOVchYPrOVcx6T6KPhdQN1YF9N0Q07O1vuoR1rESRxpAB4+tCiko/SfZc5n6rionasAx1n1rMTSXLpTg==", "user"=>{"email"=>"jbuhlig@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'jbuhlig@gmail.com' LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."affiliate_id" = $1 LIMIT 1  [["affiliate_id", "b6157a0541"]]
+  [1m[36mSQL (32.2ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "affiliate_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "jbuhlig@gmail.com"], ["encrypted_password", "$2a$10$VG7MTxL07SsP4RCVmc.5ZOI1/NWq/XkOW3xSYttBk6oDOBvBTB3Pu"], ["created_at", "2015-10-30 01:42:34.547638"], ["updated_at", "2015-10-30 01:42:34.547638"], ["affiliate_id", "b6157a0541"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7  [["last_sign_in_at", "2015-10-30 01:42:34.589719"], ["current_sign_in_at", "2015-10-30 01:42:34.589719"], ["last_sign_in_ip", "::1/128"], ["current_sign_in_ip", "::1/128"], ["sign_in_count", 1], ["updated_at", "2015-10-30 01:42:34.590837"], ["id", 2]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/affiliates
+Completed 302 Found in 148ms (ActiveRecord: 34.9ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-29 20:42:34 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered affiliates/index.html.erb within layouts/application (2.5ms)
+  Rendered shared/_head.html.erb (82.8ms)
+  Rendered shared/_header.html.erb (6.1ms)
+Completed 200 OK in 98ms (Views: 97.2ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/affiliates/sign_out" for ::1 at 2015-10-29 20:43:23 -0500
+Processing by Affiliates::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"1cO8Hg8BlUd4R5gaY7x5RZpkzZVY1PGvPAVlEtGPKF0+vZKqHE+4dfDbuQDC332Upi9aNFsYrf+K3u06wxNgDg=="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 14ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 20:43:23 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_head.html.erb (39.9ms)
+  Rendered shared/_header.html.erb (3.2ms)
+Completed 200 OK in 50ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-29 20:43:48 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (4.9ms)
+  Rendered shared/_head.html.erb (227.2ms)
+  Rendered shared/_header.html.erb (4.7ms)
+Completed 200 OK in 260ms (Views: 251.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_up" for ::1 at 2015-10-29 20:43:50 -0500
+Processing by Affiliates::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (21.2ms)
+  Rendered shared/_head.html.erb (74.1ms)
+  Rendered shared/_header.html.erb (4.4ms)
+Completed 200 OK in 122ms (Views: 111.1ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/affiliates" for ::1 at 2015-10-29 20:43:55 -0500
+Processing by Affiliates::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WKTeTcavFNQllZi+L1HdKZh6I4DBnjFMz8mfga1a+qvECNAbCmiqU2r1AT7lXZIusmnP0lwIB1hLxZSQNhlVnw==", "user"=>{"email"=>"jbuhlig@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.9ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'jbuhlig@gmail.com' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."affiliate_id" = $1 LIMIT 1  [["affiliate_id", "e7ae"]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "affiliate_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "jbuhlig@gmail.com"], ["encrypted_password", "$2a$10$VP22DFc7kYeX6iE/C5NlVuSqa3W6roNkX..yrOi1HmtCaERYhdNSS"], ["created_at", "2015-10-30 01:43:55.850879"], ["updated_at", "2015-10-30 01:43:55.850879"], ["affiliate_id", "e7ae"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7  [["last_sign_in_at", "2015-10-30 01:43:55.866645"], ["current_sign_in_at", "2015-10-30 01:43:55.866645"], ["last_sign_in_ip", "::1/128"], ["current_sign_in_ip", "::1/128"], ["sign_in_count", 1], ["updated_at", "2015-10-30 01:43:55.868047"], ["id", 3]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/affiliates
+Completed 302 Found in 122ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-29 20:43:55 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  Rendered affiliates/index.html.erb within layouts/application (2.8ms)
+  Rendered shared/_head.html.erb (83.6ms)
+  Rendered shared/_header.html.erb (4.3ms)
+Completed 200 OK in 97ms (Views: 96.2ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/affiliates/sign_out" for ::1 at 2015-10-29 20:44:33 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Affiliates::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"2nah/emvKjKjFpxH96aUI16Bk+0jinxfuFqrwoPPEvNG2q+rJWiUtex2Bcc9qtskdJJ/v74cSks8VqDTGIy9xw=="}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 35ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/" for ::1 at 2015-10-29 20:44:34 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered shared/_head.html.erb (244.6ms)
+  Rendered shared/_header.html.erb (11.9ms)
+Completed 200 OK in 270ms (Views: 269.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-29 20:44:37 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  Rendered affiliates/index.html.erb within layouts/application (0.8ms)
+  Rendered shared/_head.html.erb (75.5ms)
+  Rendered shared/_header.html.erb (6.3ms)
+Completed 200 OK in 91ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_up" for ::1 at 2015-10-29 20:44:53 -0500
+Processing by Affiliates::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (24.5ms)
+  Rendered shared/_head.html.erb (88.5ms)
+  Rendered shared/_header.html.erb (3.7ms)
+Completed 200 OK in 131ms (Views: 129.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/affiliates" for ::1 at 2015-10-29 20:44:59 -0500
+Processing by Affiliates::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"z1aEnuoWcwaL8QWx4wkWKmT1PZYsar1M/hAu5bdiXH4c/uvh0GYi3wdREe3mHKziKXWMiUUO301SVmr8j591bQ==", "user"=>{"email"=>"jbuhlig@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.6ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'jbuhlig@gmail.com' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."affiliate_id" = $1 LIMIT 1[0m  [["affiliate_id", "092f79"]]
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "affiliate_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["email", "jbuhlig@gmail.com"], ["encrypted_password", "$2a$10$c5qPlwWPXoczUF8aN0RaBeOusWzpxbKOX0B5fi.UgcdFuVNqkm8.K"], ["created_at", "2015-10-30 01:44:59.846508"], ["updated_at", "2015-10-30 01:44:59.846508"], ["affiliate_id", "092f79"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["last_sign_in_at", "2015-10-30 01:44:59.853115"], ["current_sign_in_at", "2015-10-30 01:44:59.853115"], ["last_sign_in_ip", "::1/128"], ["current_sign_in_ip", "::1/128"], ["sign_in_count", 1], ["updated_at", "2015-10-30 01:44:59.854105"], ["id", 4]]
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/affiliates
+Completed 302 Found in 113ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-10-29 20:44:59 -0500
+Processing by AffiliatesController#index as HTML
+Running affiliate index
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 4]]
+  Rendered affiliates/index.html.erb within layouts/application (1.8ms)
+  Rendered shared/_head.html.erb (49.3ms)
+  Rendered shared/_header.html.erb (2.6ms)
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.4ms)

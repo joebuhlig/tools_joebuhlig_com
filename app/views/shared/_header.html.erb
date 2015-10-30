@@ -12,9 +12,12 @@
           <a class="page-link" href="/">Home</a>
           <a class="page-link" href="http://joebuhlig.com">Blog</a>
           <%= link_to "Affiliates", {controller: "/affiliates", action: "index"}, class: "page-link" %>
-          <% if user_signed_in? %><%= link_to "Sign out", destroy_user_session_path, :method => :delete %><% end %>
       </div>
     </nav>
+    <% if user_signed_in? %><%= link_to "Sign Out", destroy_user_session_path, :method => :delete, class: "sign-in-out" %>
+    <% else %>
+      <%= link_to "Sign In", new_user_session_path, class: "sign-in-out" %>
+    <% end %>
   </div>
 </div>
 <div class="header-bar">

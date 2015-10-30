@@ -16,5 +16,5 @@ $(document).on('page:change', function(event) {
 	    }
 	});
 
-	$('.notice, .alert').slideDown().delay('3000').slideUp();
+	$('.notice, .alert').fadeIn().delay('3000').fadeOut();
 });
