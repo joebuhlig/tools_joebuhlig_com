@@ -34,6 +34,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Devise for authentication and loging
 gem 'devise'
 
+# Use Mailchimp for email list management
+gem 'mailchimp-api', require: 'mailchimp'
+gem 'gibbon'
+gem 'mandrill-api'
+
 # Use Capistrano for deployment
 gem 'capistrano'
 gem 'capistrano-rails', group: :development
