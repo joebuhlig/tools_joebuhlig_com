@@ -39,6 +39,9 @@ gem 'mailchimp-api', require: 'mailchimp'
 gem 'gibbon'
 gem 'mandrill-api'
 
+# Use Braintree for commerce
+gem 'braintree'
+
 # Use Capistrano for deployment
 gem 'capistrano'
 gem 'capistrano-rails', group: :development

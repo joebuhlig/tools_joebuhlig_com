@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'working_with_omni_focus/index'
+
   devise_for :users, controllers: { sessions: "affiliates/sessions", registrations: "affiliates/registrations" }, path: 'affiliates'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -6,6 +8,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
   get 'affiliates' => 'affiliates#index'
+  get 'working-with-omnifocus' => 'working_with_omni_focus#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

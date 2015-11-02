@@ -17,3 +17,82 @@
 	font-size: 18px;
 	line-height: 56px;
 }
+
+.sign-in-out:hover{
+	text-decoration: none;
+	color: #7cba01;
+}
+
+form {
+	margin:0px auto;
+	max-width: 300px;
+}
+
+.field {
+	margin-bottom: 15px;
+}
+
+.field input, .input {
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    background-color: #fafafa;
+    font-size: 28px;
+    color: #666;
+    width: 100%;
+    text-align: center;
+}
+
+input[type='submit'] {
+	background-color: #7cba01;
+    color: #FFFFFF;
+    min-width: 124px;
+    display: table-cell;
+    margin: 0px auto;
+    height: 30px;
+    border-radius: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+input[type='checkbox'] {
+	width:auto;
+}
+
+.affiliate-instructions {
+	margin: 0px auto;
+	max-width: 600px;
+	text-align: left;
+}
+
+.sign-up-button {
+	display: table;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.sign-up-button a {
+    background-color: #7cba01;
+    color: #FFFFFF;
+    min-width: 124px;
+    display: table-cell;
+    margin: 0px auto;
+    height: 30px;
+    border-radius: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.sign-up-button a:hover {
+	text-decoration:none;
+}
+
+.body {
+	max-width: 600px;
+	margin: 0px auto;
+	text-align: left;
+}
