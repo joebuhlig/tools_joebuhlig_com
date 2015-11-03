@@ -10,6 +10,9 @@ Rails.application.routes.draw do
   get 'affiliates' => 'affiliates#index'
   get 'working-with-omnifocus' => 'working_with_omni_focus#index'
   post 'working-with-omnifocus/buy', to: 'working_with_omni_focus#buy'
+  get "/404", :to => "errors#not_found"
+  get "/422", :to => "errors#unacceptable"
+  get "/500", :to => "errors#internal_error"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
