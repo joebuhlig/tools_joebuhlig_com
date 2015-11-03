@@ -78,7 +78,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.action_mailer.smtp_settings = { 
-    domain: 'joebuhlig.com', 
+    domain: 'tools.joebuhlig.com', 
     authentication: :plain, 
     enable_starttls_auto: true, 
     address: 'smtp.mandrillapp.com', 
@@ -86,7 +86,7 @@ Rails.application.configure do
     user_name: Rails.application.secrets.MANDRILL_USERNAME,
     password: Rails.application.secrets.MANDRILL_API_KEY }
 
-  config.action_mailer.default_url_options = { host: 'joebuhlig.com' }
+  config.action_mailer.default_url_options = { host: 'tools.joebuhlig.com' }
   config.action_mailer.delivery_method = :smtp
   # change to true to allow email to be sent during development
   config.action_mailer.perform_deliveries = true
