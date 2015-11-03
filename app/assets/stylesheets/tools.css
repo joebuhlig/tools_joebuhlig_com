@@ -39,7 +39,12 @@ form {
     font-size: 28px;
     color: #666;
     width: 100%;
-    text-align: center;
+    height: 34px;
+}
+
+.field input:focus, .braintree-hosted-fields-focused {
+	outline: -webkit-focus-ring-color auto 5px;
+	outline-offset: -2px;
 }
 
 input[type='submit'] {
@@ -58,8 +63,25 @@ input[type='submit'] {
     line-height: 1.5;
     font-weight: 300;
 }
+.submit-payment-button{
+	margin-top: 15px !important;
+}
 
+.omnifocus-button {
+	background-color: #702f96 !important;
+	height: 45px !important;
+    width: 300px;
+}
+form#checkout {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#braintree-paypal-button {
+	margin: 0px auto 20px auto;
+}
 input[type='checkbox'] {
+	height:auto;
 	width:auto;
 }
 
@@ -92,7 +114,31 @@ input[type='checkbox'] {
 }
 
 .body {
-	max-width: 600px;
+	max-width: 700px;
 	margin: 0px auto;
 	text-align: left;
+}
+
+.feed-item {
+	margin-top: 20px;
+}
+.feed-title {
+	text-align: center;
+}
+.feed-title a{
+	font-size: 28px;
+	color:#666;
+}
+
+.feed-pic{
+	text-align: center;
+}
+
+.feed-pic.github-logo img {
+    height: 150px;
+    margin: 54px 100px;
+}
+
+#working-with-omnifocus img{
+	height: 300px;
 }

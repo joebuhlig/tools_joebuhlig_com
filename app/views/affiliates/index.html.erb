@@ -1,23 +1,25 @@
 <% if user_signed_in? %>
 <div class="body">
 	<h2>Creating Links</h2>
-	<p>This is pretty simple.</p>
-	<p>Just add <code>?ref=<%= @affiliate.affiliate_id %></code> to the end of any link on the <code>tools.joebuhlig.com</code> url and you're good to go.</p>
+	<p>Add <code>?ref=<%= @affiliate.affiliate_id %></code> to the end of any link on the <code>tools.joebuhlig.com</code> url.</p>
+	<p>Examples:</p>
 	<p><code>http://tools.joebuhlig.com/?ref=<%= @affiliate.affiliate_id %></code></p>
 	<p><code>http://tools.joebuhlig.com/working-with-omnifocus/?ref=<%= @affiliate.affiliate_id %></code></p>
+	<h2>Payments</h2>
+	<p>I will send a payment to your email via PayPal at the beginning of each month. The program currently pays 20% of the final purchase price on each product, so you'll receive 20% after all promotions and discounts have been applied.</p>
 	<h2>Stats</h2>
-	<p>I'm still working to include this portion of the site. It should be up and running before your first payment.</p>
+	<p>I'm still building this portion of the site. It should be up and running before your first payment.</p>
 </div>
 <% else %>
 <div>
 	<h2>How it works</h2>
 	<div class="affiliate-instructions">
 		<h3>1. <%= link_to "Sign Up", new_user_registration_path %></h3>
-		<p>Create an account to recieve your affiliate links and see your stats.</p>
+		<p>Create an account to recieve your affiliate link and see your stats.</p>
 		<h3>2. Share</h3>
-		<p>Share your links anywhere you like. The goal is to encourage folks to indulge in the tools you find here. If they click on one of your links, a cookie is assigned to their browser so I know who gets credit.</p>
+		<p>Share your link anywhere. If you've found these tools useful, introduce other folks to them and get paid when they use your link to make a purchase.</p>
 		<h3>3. Get Paid</h3>
-		<p>Once a month (typically the first week), I pull together all the purchases made here and tie them back to their respective affiliates. You'll be paid 20% of the purchase price after any promotions and discounts have been accounted for.</p>
+		<p>Once a month you will be paid 20% of the purchase price of each item bought using your link. (Percentage will apply to the purchase price after promotions and discounts.)</p>
 		<div class="sign-up-button"><%= link_to "Sign Up!", new_user_registration_path %></div>
 	</div>
 </div>

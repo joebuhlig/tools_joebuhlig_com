@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   root 'welcome#index'
   get 'affiliates' => 'affiliates#index'
   get 'working-with-omnifocus' => 'working_with_omni_focus#index'
+  post 'working-with-omnifocus/buy', to: 'working_with_omni_focus#buy'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
