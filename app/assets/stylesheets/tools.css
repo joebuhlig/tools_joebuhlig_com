@@ -1,3 +1,25 @@
+.float-left{
+	float:left;
+	max-width: 500px;
+}
+.float-right{
+	float:right;
+}
+.sales-section{
+	clear:both;
+	margin-top:25px;
+	text-align: left;
+}
+.sales-section h2{
+	text-align: center;
+}
+.book-cover{
+	max-width: 250px;
+}
+.posts {
+    max-width: 800px;
+    margin: 0px auto;
+}
 .notice, .alert {
 	background-color: #7cba01;
 	border-radius: 0px 0px 5px 5px;
@@ -38,8 +60,9 @@ form {
     background-color: #fafafa;
     font-size: 28px;
     color: #666;
-    width: 100%;
+    width: calc(100% - 10px);
     height: 34px;
+    padding-left: 10px;
 }
 
 .field input:focus, .braintree-hosted-fields-focused {
@@ -47,7 +70,7 @@ form {
 	outline-offset: -2px;
 }
 
-input[type='submit'] {
+input[type='submit'], .button {
 	background-color: #7cba01;
     color: #FFFFFF;
     min-width: 124px;
@@ -63,6 +86,14 @@ input[type='submit'] {
     line-height: 1.5;
     font-weight: 300;
 }
+
+.button:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.button:visited{
+	color: #FFFFFF;
+}
 .submit-payment-button{
 	margin-top: 15px !important;
 }
@@ -70,13 +101,29 @@ input[type='submit'] {
 .omnifocus-button {
 	background-color: #702f96 !important;
 	height: 45px !important;
+	display: table-cell;
     width: 300px;
+}
+.button-wrapper {
+    text-align: center;
+    margin: 0px auto 20px auto;
+    display: table;
 }
 form#checkout {
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-bottom: 35px;
 }
+
+form#checkout label{
+	line-height: 32px;
+}
+
+#braintree-paypal-loggedin {
+    margin-bottom: 10px;
+}
+
 #braintree-paypal-button {
 	margin: 0px auto 20px auto;
 }
@@ -139,6 +186,31 @@ input[type='checkbox'] {
     margin: 54px 100px;
 }
 
+.price{
+	font-size: 42px;
+    font-weight: bold;
+    color: #702f96;
+}
+.author{
+	text-align: right;
+    margin-bottom: 15px;
+    color: #702f96;
+    font-weight: bold;
+    font-size: 18px;
+}
 #working-with-omnifocus img{
 	height: 300px;
+}
+
+@media screen and (max-width: 800px) {
+	.float-left{
+		float:none;
+		max-width: 100%;
+	}
+	.float-right{
+		float:none;
+	}
+	.book-cover{
+		margin: 0px auto;
+	}
 }
