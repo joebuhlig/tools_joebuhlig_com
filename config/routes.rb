@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'working_with_omni_focus/index'
 
-  devise_for :users, controllers: { sessions: "affiliates/sessions", registrations: "affiliates/registrations" }, path: 'affiliates'
+  devise_for :users, controllers: { sessions: "affiliates/sessions", registrations: "affiliates/registrations", confirmations: "affiliates/confirmations", passwords: "affiliates/passwords" }, path: 'affiliates'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

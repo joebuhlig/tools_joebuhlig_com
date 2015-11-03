@@ -23620,3 +23620,282 @@ Processing by WelcomeController#index as HTML
   Rendered shared/_head.html.erb (63.4ms)
   Rendered shared/_header.html.erb (3.1ms)
 Completed 200 OK in 85ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-11-03 08:51:39 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (6.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AffiliatesController#index as HTML
+  Rendered affiliates/index.html.erb within layouts/application (2.3ms)
+  Rendered shared/_head.html.erb (260.5ms)
+  Rendered shared/_header.html.erb (9.4ms)
+Completed 200 OK in 307ms (Views: 291.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-66db9ca91c7e4d0e906358cf60d2f064485e5d079c96d10fabf941c1ad22c504.css?body=1" for ::1 at 2015-11-03 08:51:40 -0600
+
+
+Started GET "/assets/tools.self-6c4dcc318899bfe5d1ccad47e89c07619fc18c9fc9b8389546adb0f77032b948.css?body=1" for ::1 at 2015-11-03 08:51:40 -0600
+
+
+Started GET "/assets/application.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.css?body=1" for ::1 at 2015-11-03 08:51:40 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-03 08:51:40 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-03 08:51:40 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-03 08:51:40 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-03 08:51:40 -0600
+
+
+Started GET "/assets/affiliates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-03 08:51:40 -0600
+
+
+Started GET "/assets/main.self-5e7d5e928aa2921678a27d4a8b6a23d6f4a702032fe28ecebe857b85590fa0d9.js?body=1" for ::1 at 2015-11-03 08:51:40 -0600
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-11-03 08:51:40 -0600
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-03 08:51:40 -0600
+
+
+Started GET "/assets/cookie.self-e195f2a2369036dc700ed3013c73ad9e8dc3e0d1e845af52218a06e2f5871573.js?body=1" for ::1 at 2015-11-03 08:51:40 -0600
+
+
+Started GET "/assets/working_with_omni_focus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-03 08:51:40 -0600
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-03 08:51:40 -0600
+
+
+Started GET "/affiliates/sign_up" for ::1 at 2015-11-03 08:51:42 -0600
+Processing by Affiliates::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (29.7ms)
+  Rendered shared/_head.html.erb (80.5ms)
+  Rendered shared/_header.html.erb (6.2ms)
+Completed 200 OK in 143ms (Views: 130.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/affiliates/confirmation/new" for ::1 at 2015-11-03 08:51:43 -0600
+Processing by Devise::ConfirmationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (5.0ms)
+  Rendered shared/_head.html.erb (67.5ms)
+  Rendered shared/_header.html.erb (8.7ms)
+Completed 200 OK in 92ms (Views: 91.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/affiliates/confirmation" for ::1 at 2015-11-03 08:51:46 -0600
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zggNJE12zfrzi+Cfp4LLwYD+ia41GJyrh59ZEIcKa9MND2gM8ix88bvLZxu/kOfkMBkvtkP12D1Adevsu6KYxg==", "user"=>{"email"=>"joe@joebuhlig.com"}, "commit"=>"Resend confirmation instructions"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."unconfirmed_email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["unconfirmed_email", "joe@joebuhlig.com"]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "joe@joebuhlig.com"]]
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (5.3ms)
+  Rendered shared/_head.html.erb (80.5ms)
+  Rendered shared/_header.html.erb (5.8ms)
+Completed 200 OK in 135ms (Views: 99.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/affiliates/sign_up" for ::1 at 2015-11-03 08:51:50 -0600
+Processing by Affiliates::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.2ms)
+  Rendered shared/_head.html.erb (66.7ms)
+  Rendered shared/_header.html.erb (4.0ms)
+Completed 200 OK in 89ms (Views: 87.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/affiliates" for ::1 at 2015-11-03 08:51:57 -0600
+Processing by Affiliates::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"s77lJxbRiC5kX6JNMmkg++kSwVU2k4PRbvLLIy2IdcNwuYAPqYs5JSwfJckqewzeWfVnTUB+x0epGHnfESCG1g==", "user"=>{"email"=>"joe@joebuhlig.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Up!"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'joe@joebuhlig.com' LIMIT 1[0m
+  [1m[35mUser Load (1.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."confirmation_token" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["confirmation_token", "a26aac1a604e3605c7e26b75129ff04bbcfd89f95ede6114eff088ce8307ed23"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."affiliate_id" = $1 LIMIT 1[0m  [["affiliate_id", "8ad122"]]
+  [1m[35mSQL (25.7ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "confirmation_token", "confirmation_sent_at", "affiliate_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["email", "joe@joebuhlig.com"], ["encrypted_password", "$2a$10$yFXIWrKWKhrqmxE9YJZ6VuyCaU3JaGMn3/Uf8Iz64WM/2IAD9qPHK"], ["created_at", "2015-11-03 14:51:57.226855"], ["updated_at", "2015-11-03 14:51:57.226855"], ["confirmation_token", "Tf1x_gZvbp_yaLKtprqR"], ["confirmation_sent_at", "2015-11-03 14:51:57.437172"], ["affiliate_id", "8ad122"]]
+  Rendered devise/mailer/confirmation_instructions.html.erb (1.4ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 182.7ms
+
+Sent mail to joe@joebuhlig.com (1062.4ms)
+Date: Tue, 03 Nov 2015 08:51:57 -0600
+From: Joe Buhlig <joe@joebuhlig.com>
+Reply-To: Joe Buhlig <joe@joebuhlig.com>
+To: joe@joebuhlig.com
+Message-ID: <5638ca0da3b07_fc993fd903fe342456c@Joes-MacBook-Pro.local.mail>
+Subject: Confirm your email | Joe Buhlig
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome! I'm thrilled to have you on the team!</p>
+
+<p>If you're ready to get started, click on the link below:</p>
+
+<p><a href="http://localhost:3000/affiliates/confirmation?confirmation_token=Tf1x_gZvbp_yaLKtprqR">Confirm my account</a></p>
+
+  [1m[36m (2.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 1607ms (ActiveRecord: 30.8ms)
+
+
+Started GET "/" for ::1 at 2015-11-03 08:51:58 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+  Rendered shared/_head.html.erb (56.0ms)
+  Rendered shared/_header.html.erb (3.5ms)
+Completed 200 OK in 74ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-11-03 08:52:00 -0600
+Processing by AffiliatesController#index as HTML
+  Rendered affiliates/index.html.erb within layouts/application (0.6ms)
+  Rendered shared/_head.html.erb (49.1ms)
+  Rendered shared/_header.html.erb (4.5ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_up" for ::1 at 2015-11-03 08:52:02 -0600
+Processing by Affiliates::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.8ms)
+  Rendered shared/_head.html.erb (50.7ms)
+  Rendered shared/_header.html.erb (5.7ms)
+Completed 200 OK in 73ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/confirmation/new" for ::1 at 2015-11-03 08:52:03 -0600
+Processing by Devise::ConfirmationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (2.5ms)
+  Rendered shared/_head.html.erb (71.3ms)
+  Rendered shared/_header.html.erb (5.6ms)
+Completed 200 OK in 89ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/affiliates/confirmation" for ::1 at 2015-11-03 08:52:07 -0600
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iNG+hBzwM6W8rv2RsZ3kGg8h+DvGumLbLM6A+tSOLahL1tuso6qCrvTuehWpj8g/v8ZeI7BXJk3rJDIG6CbevQ==", "user"=>{"email"=>"joe@joebuhlig.com"}, "commit"=>"Resend confirmation instructions"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."unconfirmed_email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["unconfirmed_email", "joe@joebuhlig.com"]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "joe@joebuhlig.com"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  Rendered devise/mailer/confirmation_instructions.html.erb (0.3ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 18.8ms
+
+Sent mail to joe@joebuhlig.com (1104.4ms)
+Date: Tue, 03 Nov 2015 08:52:07 -0600
+From: Joe Buhlig <joe@joebuhlig.com>
+Reply-To: Joe Buhlig <joe@joebuhlig.com>
+To: joe@joebuhlig.com
+Message-ID: <5638ca174c042_fc993fd903fe342457f8@Joes-MacBook-Pro.local.mail>
+Subject: Confirm your email | Joe Buhlig
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome! I'm thrilled to have you on the team!</p>
+
+<p>If you're ready to get started, click on the link below:</p>
+
+<p><a href="http://localhost:3000/affiliates/confirmation?confirmation_token=Tf1x_gZvbp_yaLKtprqR">Confirm my account</a></p>
+
+Redirected to http://localhost:3000/affiliates/sign_in
+Completed 302 Found in 1139ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-11-03 08:52:08 -0600
+Processing by Affiliates::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.0ms)
+  Rendered shared/_head.html.erb (55.7ms)
+  Rendered shared/_header.html.erb (3.4ms)
+Completed 200 OK in 83ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/confirmation/new" for ::1 at 2015-11-03 08:52:18 -0600
+Processing by Devise::ConfirmationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (2.6ms)
+  Rendered shared/_head.html.erb (68.5ms)
+  Rendered shared/_header.html.erb (3.5ms)
+Completed 200 OK in 85ms (Views: 84.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates" for ::1 at 2015-11-03 08:57:44 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AffiliatesController#index as HTML
+  Rendered affiliates/index.html.erb within layouts/application (3.0ms)
+  Rendered shared/_head.html.erb (256.5ms)
+  Rendered shared/_header.html.erb (10.0ms)
+Completed 200 OK in 305ms (Views: 291.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/affiliates/sign_up" for ::1 at 2015-11-03 08:57:46 -0600
+Processing by Affiliates::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (25.2ms)
+  Rendered shared/_head.html.erb (49.4ms)
+  Rendered shared/_header.html.erb (3.8ms)
+Completed 200 OK in 104ms (Views: 89.8ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/affiliates/confirmation/new" for ::1 at 2015-11-03 08:57:48 -0600
+Processing by Affiliates::ConfirmationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (4.3ms)
+  Rendered shared/_head.html.erb (80.5ms)
+  Rendered shared/_header.html.erb (5.1ms)
+Completed 200 OK in 104ms (Views: 103.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/affiliates/confirmation" for ::1 at 2015-11-03 08:57:51 -0600
+Processing by Affiliates::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"an8zQrlnvgUrlhAgMmg6FPOpwROdlXCY3wXcqCpRjsGpeFZqBj0PDmPWl6QqehYxQ05nC+t4NA4Y725UFvl91A==", "user"=>{"email"=>"joe@joebuhlig.com"}, "commit"=>"Resend confirmation instructions"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."unconfirmed_email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["unconfirmed_email", "joe@joebuhlig.com"]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "joe@joebuhlig.com"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  Rendered devise/mailer/confirmation_instructions.html.erb (0.9ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 204.5ms
+
+Sent mail to joe@joebuhlig.com (865.6ms)
+Date: Tue, 03 Nov 2015 08:57:51 -0600
+From: Joe Buhlig <joe@joebuhlig.com>
+Reply-To: Joe Buhlig <joe@joebuhlig.com>
+To: joe@joebuhlig.com
+Message-ID: <5638cb6faa665_fcef3fe12da25ce450764@Joes-MacBook-Pro.local.mail>
+Subject: Confirm your email | Joe Buhlig
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome! I'm thrilled to have you on the team!</p>
+
+<p>If you're ready to get started, click on the link below:</p>
+
+<p><a href="http://localhost:3000/affiliates/confirmation?confirmation_token=Tf1x_gZvbp_yaLKtprqR">Confirm my account</a></p>
+
+Redirected to http://localhost:3000/affiliates/sign_in
+Completed 302 Found in 1110ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/affiliates/sign_in" for ::1 at 2015-11-03 08:57:52 -0600
+Processing by Affiliates::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.9ms)
+  Rendered shared/_head.html.erb (53.1ms)
+  Rendered shared/_header.html.erb (3.1ms)
+Completed 200 OK in 85ms (Views: 82.5ms | ActiveRecord: 0.0ms)
