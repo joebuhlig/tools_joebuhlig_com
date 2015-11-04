@@ -6,6 +6,7 @@ class OmnifocusMailer < ApplicationMailer
 	def book_receipt(email, transaction)
 		@email = email
 		@transaction = transaction
+		@amount = sprintf('%.2f', transaction.amount)
 		mail(to: @email, subject: 'Working with OmniFocus [Receipt]')
 	end
 end

@@ -17,8 +17,11 @@
 	max-width: 250px;
 }
 .posts {
-    max-width: 800px;
     margin: 0px auto;
+}
+.post-content {
+	max-width: 800px;
+	margin: 0px auto;
 }
 .notice, .alert {
 	background-color: #7cba01;
@@ -190,6 +193,7 @@ input[type='checkbox'] {
 	font-size: 42px;
     font-weight: bold;
     color: #702f96;
+    text-align: center;
 }
 .author{
 	text-align: right;
