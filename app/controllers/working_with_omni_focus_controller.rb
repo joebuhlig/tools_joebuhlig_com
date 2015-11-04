@@ -24,9 +24,6 @@ class WorkingWithOmniFocusController < ApplicationController
 				:payment_method_nonce => params[:payment_method_nonce],
 				:custom_fields => {
 					:affiliate_id => params[:buhlig_aff]
-				},
-				:options => {
-					:verify_card => true
 				}
 			)
 			if result.success?
