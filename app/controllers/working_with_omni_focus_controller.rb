@@ -5,6 +5,7 @@ class WorkingWithOmniFocusController < ApplicationController
 
 	def index
 		@client_token = Braintree::ClientToken.generate
+		@wwo_price = sprintf('%.0f', Rails.configuration.wwo_price)
 	end
 
 	def buy
