@@ -3,12 +3,37 @@
 	<h2>Creating Links</h2>
 	<p>Add <code>?ref=<%= @affiliate.affiliate_id %></code> to the end of any link on the <code>tools.joebuhlig.com</code> url.</p>
 	<p>Examples:</p>
-	<p><code>http://tools.joebuhlig.com/?ref=<%= @affiliate.affiliate_id %></code></p>
-	<p><code>http://tools.joebuhlig.com/working-with-omnifocus/?ref=<%= @affiliate.affiliate_id %></code></p>
+	<p><code>https://tools.joebuhlig.com/?ref=<%= @affiliate.affiliate_id %></code></p>
+	<p><code>https://tools.joebuhlig.com/working-with-omnifocus/?ref=<%= @affiliate.affiliate_id %></code></p>
 	<h2>Payments</h2>
 	<p>I will send a payment to your email via PayPal at the beginning of each month. The program currently pays 20% of the final purchase price on each product, so you'll receive 20% after all promotions and discounts have been applied.</p>
 	<h2>Stats</h2>
-	<p>I'm still building this portion of the site. It should be up and running before your first payment.</p>
+	<table class="affiliate_payment_table">
+		<thead>
+			<tr>
+				<td>Date</td>
+				<td>Product</td>
+				<td class="center-text">N</td>
+				<td>Amount</td>
+				<td class="center-text">Status</td>
+			</tr>
+		</thead>
+		<tbody>
+			<% @affiliate_summaries.each do |summary| %>
+				<% if cycle('odd', 'even') == 'odd' %>
+				<tr class="shaded">
+				<% else %>
+				<tr>
+				<% end %>
+					<td><%= summary.tdate %></td>
+					<td><% if summary.product_name %><%= summary.product_name %><% else %>N/A<% end %></td>
+					<td class="center-text"><% if summary.n %><%= summary.n %><% else %>0<% end %></td>
+					<td><% if summary.payment %><%= number_to_currency(summary.payment) %><% else %>$0.00<% end %></td>
+					<td class="center-text"><% if summary.status %><%= summary.status %><% else %>Pending<% end %></td>
+				</tr>
+			<% end %>
+		</tbody>
+	</table>
 </div>
 <% else %>
 <div>

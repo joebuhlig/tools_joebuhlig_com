@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  affiliate_id: MyString
+  date: MyString
+  amount: 1
+
+two:
+  affiliate_id: MyString
+  date: MyString
+  amount: 1

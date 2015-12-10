@@ -85,6 +85,25 @@ h5 {
 
 h6 {
   font-size: 0.5em; }
+table{
+  border-spacing: 0px;
+}
+table td{
+  padding:5px;
+  border-bottom:1px solid #cccccc;
+}
+table tr.shaded{
+  background-color:#eeeeee;
+}
+.affiliate_payment_table{
+  margin-bottom: 200px;
+}
+.affiliate_payment_table td{
+  min-width: 75px;
+}
+.affiliate_payment_table .center-text{
+  text-align: center;
+}
 
 /**
  * Links

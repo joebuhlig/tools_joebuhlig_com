@@ -7,6 +7,9 @@ class User < ActiveRecord::Base
 	devise :database_authenticatable, :registerable, :recoverable, :rememberable, :trackable, :validatable, :confirmable
 
 	before_create :create_affiliate_id
+	has_many :affiliate_payments
+	has_many :transactions
+	has_many :affiliate_summaries
 
 	# Override Devise::Confirmable#after_confirmation
 	def after_confirmation
