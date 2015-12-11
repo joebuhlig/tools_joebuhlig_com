@@ -49,6 +49,7 @@ class WorkingWithOmniFocusController < ApplicationController
 		end
 
 		if customer_flag
+			logger.info customer.inspect
 			transaction = Braintree::Transaction.sale(
 				:amount => sale_price,
 				:customer_id => customer.id,
@@ -62,6 +63,7 @@ class WorkingWithOmniFocusController < ApplicationController
 				    :submit_for_settlement => true
 			  	}
 		  	)
+			logger.info transaction.inspect
 		  	if transaction.success?
 		  		api_key = Rails.application.secrets.MAILCHIMP_API_KEY
 			    gibbon = Gibbon::Request.new(api_key: api_key)
@@ -78,7 +80,7 @@ class WorkingWithOmniFocusController < ApplicationController
 			        end
 			      end
 			    end
-			    logger.debug @signupresult
+			    logger.info @signupresult
 		  	else
 		  		@customer_fail = true
 		  	end
