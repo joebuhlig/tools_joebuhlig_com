@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'discounts/:code' => 'discounts#validate_code'
+
   get 'working_with_omni_focus/index'
 
   devise_for :users, controllers: { sessions: "affiliates/sessions", registrations: "affiliates/registrations", confirmations: "affiliates/confirmations", passwords: "affiliates/passwords" }, path: 'affiliates'

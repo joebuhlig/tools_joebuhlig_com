@@ -85,7 +85,7 @@
 		<p>If you just aren't sure, check out a sample <a href="/assets/resources/book/Working%20with%20OmniFocus-Sample.pdf">here</a>.</p> 
 	</div>
 	<form action="/working-with-omnifocus/buy" id="checkout" method="post">
-	  <div class="price">$<%= @wwo_price %></div>
+	  <div class="price"><%= @wwo_price_formatted %></div>
 	  <div id="paypal"></div>
 
 	  <label for="email" id="checkout-email-label">Email</label>
@@ -97,6 +97,10 @@
 
 	  <label for="expiration-date" id="expiration-date-label">Expiration Date (MM/YY)</label>
 	  <div id="expiration-date" class="input"></div>
+
+	  <label for="discount" id="checkout-discount-label">Discount <span id="discount-result"></span></label>
+	  <input type="discount" name="discount" id="checkout-discount" class="input">
+
 	  <input type="hidden" name="product_name" id="hidden-product-name" value="Working-with-OmniFocus">
 	  <input type="hidden" name="buhlig_aff" id="hidden-buhlig-aff" value="">
 	  <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>"/>
@@ -104,6 +108,7 @@
 	</form>
 </div>
 <script charset='utf-8'>
+	initialPrice = <%= @wwo_price %>;
 	$('#hidden-buhlig-aff').val(Cookies.get('buhlig_aff'));
 	braintree.setup("<%= @client_token %>", "custom", {
         id: "checkout",

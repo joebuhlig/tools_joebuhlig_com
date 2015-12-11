@@ -104,6 +104,12 @@ table tr.shaded{
 .affiliate_payment_table .center-text{
   text-align: center;
 }
+#discount-result {
+  color: green;
+}
+#discount-result.error{
+  color:red !important;
+}
 
 /**
  * Links

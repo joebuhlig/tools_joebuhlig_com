@@ -6,6 +6,7 @@ class WorkingWithOmniFocusController < ApplicationController
 	def index
 		@client_token = Braintree::ClientToken.generate
 		@wwo_price = sprintf('%.0f', Rails.configuration.wwo_price)
+		@wwo_price_formatted = sprintf('$%.2f', Rails.configuration.wwo_price)
 	end
 
 	def buy
@@ -34,10 +35,22 @@ class WorkingWithOmniFocusController < ApplicationController
 		end
 		affiliate_payment = Rails.configuration.wwo_price * Rails.configuration.affiliate_percentage
 		affiliate_payment = sprintf('%.2f', affiliate_payment)
+		sale_price = Rails.configuration.wwo_price.to_s
+
+		unless params[:discount].blank?
+			discount = Discount.find_by(code: params[:discount])
+			unless discount.blank?
+				if discount.flat.blank?
+					sale_price = (sale_price.to_f - (sale_price.to_f * discount.percentage)).to_f
+				else
+					sale_price = (sale_price.to_f - discount.flat).to_f
+				end
+			end
+		end
 
 		if customer_flag
 			transaction = Braintree::Transaction.sale(
-				:amount => Rails.configuration.wwo_price.to_s,
+				:amount => sale_price,
 				:customer_id => customer.id,
 				:custom_fields => {
 					:affiliate_id => params[:buhlig_aff],
@@ -72,4 +85,5 @@ class WorkingWithOmniFocusController < ApplicationController
 			@customer_fail = true
 		end
 	end
+
 end
