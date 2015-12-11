@@ -28,7 +28,7 @@ function validate_discount(code, initialPrice){
 	$.ajax({
 		type:"GET",
 		data: {price: initialPrice},
-		url:"discounts/" + code,
+		url:"/discounts/" + code,
 		success:function(result){
 			console.log(result);
 			$('#discount-result').html(result.result);
