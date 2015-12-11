@@ -4,7 +4,9 @@ class AffiliatesController < ApplicationController
 	
 	def index
 		@affiliate = current_user
-		@affiliate_summaries = current_user.affiliate_summaries
+		unless @affiliate.blank?
+			@affiliate_summaries = current_user.affiliate_summaries
+		end
 	end
 
 	def update_affiliate_numbers
