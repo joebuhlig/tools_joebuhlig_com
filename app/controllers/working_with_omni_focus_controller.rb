@@ -38,7 +38,7 @@ class WorkingWithOmniFocusController < ApplicationController
 		sale_price = Rails.configuration.wwo_price.to_s
 
 		unless params[:discount].blank?
-			discount = Discount.find_by(code: params[:discount])
+			discount = Discount.find_by(code: params[:discount].downcase)
 			unless discount.blank?
 				if discount.flat.blank?
 					sale_price = (sale_price.to_f - (sale_price.to_f * discount.percentage)).to_f
@@ -55,7 +55,8 @@ class WorkingWithOmniFocusController < ApplicationController
 				:custom_fields => {
 					:affiliate_id => params[:buhlig_aff],
 					:product_name => params[:product_name],
-					:affiliate_payment => affiliate_payment
+					:affiliate_payment => affiliate_payment,
+					:discount_code => params[:discount].downcase
 				},
 				:options => {
 				    :submit_for_settlement => true

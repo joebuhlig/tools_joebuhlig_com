@@ -1,6 +1,6 @@
 class DiscountsController < ApplicationController
   def validate_code
-  	discount = Discount.find_by(code: params[:code])
+  	discount = Discount.find_by(code: params[:code].downcase)
   	sale_price = params[:price]
   	if discount.blank?
   		@code = 100
@@ -15,7 +15,7 @@ class DiscountsController < ApplicationController
   		@code = 200
   		@result = "Success!"
   	end
-  	
+
   	sale_price = "$%.2f" % sale_price
 
   	if request.xhr?
