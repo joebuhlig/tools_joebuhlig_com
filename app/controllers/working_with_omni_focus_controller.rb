@@ -33,8 +33,6 @@ class WorkingWithOmniFocusController < ApplicationController
 				customer_flag = true
 			end
 		end
-		affiliate_payment = Rails.configuration.wwo_price * Rails.configuration.affiliate_percentage
-		affiliate_payment = sprintf('%.2f', affiliate_payment)
 		sale_price = Rails.configuration.wwo_price.to_s
 
 		unless params[:discount].blank?
@@ -48,6 +46,9 @@ class WorkingWithOmniFocusController < ApplicationController
 			end
 		end
 
+		affiliate_payment = sale_price * Rails.configuration.affiliate_percentage
+		affiliate_payment = sprintf('%.2f', affiliate_payment)
+		
 		if customer_flag
 			logger.info customer.inspect
 			transaction = Braintree::Transaction.sale(
