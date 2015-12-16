@@ -46,7 +46,7 @@ class WorkingWithOmniFocusController < ApplicationController
 			end
 		end
 
-		affiliate_payment = sale_price * Rails.configuration.affiliate_percentage
+		affiliate_payment = sale_price.to_f * Rails.configuration.affiliate_percentage
 		affiliate_payment = sprintf('%.2f', affiliate_payment)
 		
 		if customer_flag
@@ -69,7 +69,7 @@ class WorkingWithOmniFocusController < ApplicationController
 		  		api_key = Rails.application.secrets.MAILCHIMP_API_KEY
 			    gibbon = Gibbon::Request.new(api_key: api_key)
 			    list_id = Rails.application.secrets.MAILCHIMP_WWO_LIST
-			    @signupresult = 'success'
+			    @signupresult = transaction
 			    begin
 			    	OmnifocusMailer.book_purchase(params[:email]).deliver_now
 			    	OmnifocusMailer.book_receipt(params[:email], transaction.transaction).deliver_now
@@ -77,16 +77,16 @@ class WorkingWithOmniFocusController < ApplicationController
 			    rescue Gibbon::MailChimpError => error
 			      if error.title
 			        if error.title = "Member Exists"
-			          @signupresult = "currentmember"
 			        end
 			      end
 			    end
-			    logger.info @signupresult
 		  	else
 		  		@customer_fail = true
+		  		@signupresult = transaction
 		  	end
 		else
 			@customer_fail = true
+			@signupresult = result
 		end
 	end
 
