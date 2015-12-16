@@ -21,6 +21,7 @@
 	<p><h2>Status: <strong>Paid</strong></h2></p>
 	<p>You can find your receipt in your email. Thank you for your business!</p>
 	<% else %>
+	<% if @signupresult %><p><%= @signupresult %></p><% end %>
 	<p>
 	<form action="/pay/<%= @clientpayment.code %>/payment" id="checkout" method="post">
 

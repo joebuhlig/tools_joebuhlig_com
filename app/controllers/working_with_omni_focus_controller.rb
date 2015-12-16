@@ -82,11 +82,11 @@ class WorkingWithOmniFocusController < ApplicationController
 			    end
 		  	else
 		  		@customer_fail = true
-		  		@signupresult = transaction
+		  		@signupresult = transaction.message
 		  	end
 		else
 			@customer_fail = true
-			@signupresult = result
+			@signupresult = result.message
 		end
 	end
 

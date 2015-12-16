@@ -57,17 +57,16 @@ class PayController < ApplicationController
 		  	)
 			logger.info transaction.inspect
 		  	if transaction.success?
-			    @signupresult = transaction
 			    ClientMailer.client_receipt(params[:email], @clientpayment, transaction.transaction, @amount, @fees, sale_price).deliver_now
 			    @clientpayment.paid = true
 			    @clientpayment.save
 		  	else
 		  		@customer_fail = true
-		  		@signupresult = transaction
+		  		@signupresult = transaction.message
 		  	end
 		else
 			@customer_fail = true
-			@signupresult = result
+			@signupresult = result.message
 		end
 
 		redirect_to :action => "index", :code => params[:code]

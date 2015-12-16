@@ -1,7 +1,7 @@
 <h2>Working with OmniFocus</h2>
 <% if @customer_fail %>
 	<p>I'm really sorry, but something went wrong.</p>
-	<% @signupresult.errors.each do |error| %><p><%= error.message %></p><% end %>
+	<%= @signupresult %>
 	<p>Either give it another go or <a href="mailto:joe@joebuhlig.com">send me an email</a> so I can make it right.</p>
 <% else %>
 	<p>Thank you! <em>Working with OmniFocus</em> is waiting for you in your email.</p>
