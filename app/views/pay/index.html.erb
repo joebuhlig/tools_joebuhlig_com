@@ -1,0 +1,70 @@
+<div class="post-content" style="text-align:center;">
+	<p><h2>Code: <%= @clientpayment.code %></h2></p>
+	<p><%= @clientpayment.description %></p>
+	<p>
+		<table class="payment-table">
+			<tr>
+				<td class="left-align">Amount:</td>
+				<td class="right-align"><%= @amount %></td>
+			</tr>
+			<tr>
+				<td class="left-align">Credit Card Fee:</td>
+				<td class="right-align"><%= @fees %></td>
+			</tr>
+			<tr>
+				<td class="left-align">Total:</td>
+				<td class="right-align"><strong><%= @total %></strong></td>
+			</tr>
+		</table>
+	</p>
+	<% if @clientpayment.paid %>
+	<p><h2>Status: <strong>Paid</strong></h2></p>
+	<p>You can find your receipt in your email. Thank you for your business!</p>
+	<% else %>
+	<p>
+	<form action="/pay/<%= @clientpayment.code %>/payment" id="checkout" method="post">
+
+		<label for="email" id="checkout-email-label">Email (for receipt)</label>
+		<input type="email" name="email" id="checkout-email" class="input">
+
+		<label for="cardholder-name" id="cardholder-name-label">Name (on card)</label>
+		<input type="text" name="cardholder-name" id="checkout-name" class="input">
+
+		<label for="card-number" id="card-number-label">Card Number</label>
+		<div id="card-number" class="input"></div>
+
+		<label for="expiration-date" id="expiration-date-label">Expiration Date (MM/YY)</label>
+		<div id="expiration-date" class="input"></div>
+
+		<label for="cvv" id="cvv-label">CVV</label>
+		<div id="cvv" class="input"></div>
+
+		<input type="hidden" name="product_name" id="hidden-product-name" value="Client_Payment">
+		<input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>"/>
+		<input type="submit" class="submit-payment-button" value="Pay" />
+	</form>
+	</p>
+	<% end %>
+</div>
+<script charset='utf-8'>
+	braintree.setup("<%= @client_token %>", "custom", {
+        id: "checkout",
+        hostedFields: {
+          styles: {
+            "input": {
+              "font-size": "28px",
+              "color": "#666"
+            }
+          },
+          number: {
+            selector: "#card-number"
+          },
+          expirationDate: {
+            selector: "#expiration-date"
+          },
+          cvv: {
+            selector: "#cvv"
+          }
+        }
+    });
+</script>

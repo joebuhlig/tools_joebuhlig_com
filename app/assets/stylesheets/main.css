@@ -95,6 +95,15 @@ table td{
 table tr.shaded{
   background-color:#eeeeee;
 }
+.left-align{
+  text-align: left;
+}
+.right-align{
+  text-align: right;
+}
+.payment-table{
+  margin:0px auto;
+}
 .affiliate_payment_table{
   margin-bottom: 200px;
 }

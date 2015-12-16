@@ -1,0 +1,25 @@
+<% if current_user.admin? %>
+<div>
+<table class="payment-table">
+	<thead>
+		<tr>
+			<th>Code</th>
+			<th>Description</th>
+			<th>Amount</th>
+			<th>Paid</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% @clientpayments.each do |payment| %>
+		<tr>
+			<td><a href="/pay/<%= payment.code %>"><%= payment.code %></a></td>
+			<td><%= payment.description %></td>
+			<td><%= payment.amount %></td>
+			<td><%= payment.paid %></td>
+		<% end %>
+	</tbody>
+</table>
+</div>
+<% else %>
+<div>You don't have permission to view this page.</div>
+<% end %>

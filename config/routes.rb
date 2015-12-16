@@ -9,10 +9,19 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'
+
   get 'affiliates' => 'affiliates#index'
   get 'update_affiliate_numbers' => 'affiliates#update_affiliate_numbers'
+
+  get 'pay' => 'pay#summary'
+  get 'pay/:code' => 'pay#index'
+  post 'pay/:code/payment', to: 'pay#payment'
+
+  resources :client_payments
+
   get 'working-with-omnifocus' => 'working_with_omni_focus#index'
   post 'working-with-omnifocus/buy', to: 'working_with_omni_focus#buy'
+
   get "/404", :to => "errors#not_found"
   get "/422", :to => "errors#unacceptable"
   get "/500", :to => "errors#internal_error"

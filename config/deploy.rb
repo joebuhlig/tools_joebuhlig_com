@@ -32,7 +32,7 @@ set :repo_url, 'git@github.com:joebuhlig/tools_joebuhlig_com.git'
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 
 # Default value for keep_releases is 5
-set :keep_releases, 1
+set :keep_releases, 5
 
 namespace :deploy do
 

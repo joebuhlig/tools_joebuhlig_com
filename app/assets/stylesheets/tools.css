@@ -57,7 +57,7 @@ form {
 	margin-bottom: 15px;
 }
 
-.field input, .input {
+.field input, .input, .field textarea {
     border: 1px solid #cdcdcd;
     border-radius: 5px;
     background-color: #fafafa;
