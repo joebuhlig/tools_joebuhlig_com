@@ -13,6 +13,7 @@ class AffiliatesController < ApplicationController
 
 		collection = Braintree::Transaction.search do |search|
 			search.status.is Braintree::Transaction::Status::Settled
+			search.refund.is false
 		end
 
 		collection.each do |transaction|
