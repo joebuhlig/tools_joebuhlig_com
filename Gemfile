@@ -49,6 +49,8 @@ gem 'capistrano-rvm'
 
 gem 'nokogiri'
 gem 'will_paginate'
+gem 'watir-webdriver'
+gem 'phantomjs'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

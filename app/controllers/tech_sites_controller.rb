@@ -1,6 +1,7 @@
 require 'open-uri'
 require 'nokogiri'
 require 'uri'
+require 'watir-webdriver'
 
 class TechSitesController < ApplicationController
   before_action :set_tech_site, only: [:show, :edit, :update, :destroy]
@@ -68,13 +69,35 @@ class TechSitesController < ApplicationController
   def scrape(reload = false)
     @tech_sites = TechSite.all
     new_tech_array = []
+    browser = Watir::Browser.new:phantomjs
     @tech_sites.each do |tech_site|
       if tech_site.active
-        doc = Nokogiri::HTML(open(tech_site.url))
-        new_tech = get_tech(tech_site, doc, reload)
-        tech_site.first_scrape = false
-        tech_site.save
-        new_tech_array.push(new_tech).flatten!
+        if tech_site.subgroups
+          browser.goto tech_site.url
+          doc = Nokogiri::HTML(browser.html)
+          subs = doc.css(tech_site.subgroup_selector)
+          subs.each do |sub|
+            sub_link = sub['href']
+            if !sub_link.start_with?("http")
+              uri = URI.parse(tech_site.url)
+              sub_link = "#{uri.scheme}://#{uri.host}" + sub_link
+            end
+            browser.goto sub_link
+            doc = Nokogiri::HTML(browser.html)
+            puts doc
+            new_tech = get_tech(tech_site, doc, reload)
+            tech_site.first_scrape = false
+            tech_site.save
+            new_tech_array.push(new_tech).flatten!
+          end
+        else
+          browser.goto tech_site.url
+          doc = Nokogiri::HTML(browser.html)
+          new_tech = get_tech(tech_site, doc, reload)
+          tech_site.first_scrape = false
+          tech_site.save
+          new_tech_array.push(new_tech).flatten!
+        end
       end
     end
     unless new_tech_array.empty?
