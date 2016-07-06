@@ -1,6 +1,7 @@
 <% if user_signed_in? %>
 <p id="notice"><%= notice %></p>
-
+<%= render 'shared/tech_header' %>
+<br>
 <p>
   <strong>Active:</strong>
   <%= @tech_site.active %>

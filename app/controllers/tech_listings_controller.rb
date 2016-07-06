@@ -7,7 +7,7 @@ class TechListingsController < ApplicationController
     if params[:search]
       @tech_listings = TechListing.search(params[:search]).order("created_at DESC").paginate(:page => params[:page], :per_page => 100)
     else
-      @tech_listings = TechListing.paginate(:page => params[:page], :per_page => 100)
+      @tech_listings = TechListing.order("created_at DESC").paginate(:page => params[:page], :per_page => 100)
     end
   end
 
@@ -66,7 +66,7 @@ class TechListingsController < ApplicationController
   end
 
   def flagged
-    @tech_listings = TechListing.where(flagged: true)
+    @tech_listings = TechListing.where(flagged: true).order("created_at DESC").paginate(:page => params[:page], :per_page => 100)
     render "index"
   end
 
@@ -76,7 +76,7 @@ class TechListingsController < ApplicationController
   end
 
   def submitted
-    @tech_listings = TechListing.where(submitted: true)
+    @tech_listings = TechListing.where(submitted: true).order("created_at DESC").paginate(:page => params[:page], :per_page => 100)
     render "index"
   end
   private
