@@ -35,6 +35,15 @@
     <%= f.label :tech_selector %><br>
     <%= f.text_field :tech_selector %>
   </div>
+
+  <div class="field">
+    <%= f.label :tech_title_selector %><br>
+    <%= f.text_field :tech_title_selector %>
+  </div>
+  <div class="field">
+    <%= f.label :tech_link_selector %><br>
+    <%= f.text_field :tech_link_selector %>
+  </div>
   <div class="field">
     <%= f.label :tech_description_selector %><br>
     <%= f.text_field :tech_description_selector %>
@@ -46,6 +55,10 @@
   <div class="field">
     <%= f.label :comments %><br>
     <%= f.text_area :comments %>
+  </div>
+  <div class="field">
+    <%= f.label :first_scrape %><br>
+    <%= f.check_box :first_scrape, checked: @tech_site.new_record? || f.object.first_scrape? %>
   </div>
   <div class="actions">
     <%= f.submit %>

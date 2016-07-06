@@ -8,10 +8,9 @@
     <tr>
       <th>Active</th>
       <th>Name</th>
-      <th>Url</th>
-      <th>Subgroups</th>
-      <th>Subgroup selector</th>
       <th>Tech selector</th>
+      <th>Tech Title selector</th>
+      <th>Tech Link selector</th>
       <th>Tech Description selector</th>
       <th>Errors</th>
       <th>Comments</th>
@@ -23,11 +22,10 @@
     <% @tech_sites.each do |tech_site| %>
       <tr>
         <td><%= tech_site.active %></td>
-        <td><%= tech_site.name %></td>
-        <td><%= tech_site.url %></td>
-        <td><%= tech_site.subgroups %></td>
-        <td><%= tech_site.subgroup_selector %></td>
+        <td><a href="<%= tech_site.url %>" target="_blank"><%= tech_site.name %></a></td>
         <td><%= tech_site.tech_selector %></td>
+        <td><%= tech_site.tech_title_selector %></td>
+        <td><%= tech_site.tech_link_selector %></td>
         <td><%= tech_site.tech_description_selector %></td>
         <td><%= tech_site.found_errors %></td>
         <td><%= tech_site.comments %></td>

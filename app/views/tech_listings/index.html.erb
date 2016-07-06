@@ -2,7 +2,9 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Listing Tech Listings</h1>
-
+<div>
+  <%= link_to 'Flagged listings', tech_flagged_path %>
+</div>
 <table>
   <thead>
     <tr>
@@ -33,5 +35,13 @@
 
 <br>
 
-<%= link_to 'New Tech listing', new_tech_listing_path %>
+<div>
+  <%= link_to 'All listings', tech_listings_path %>
+</div>
+
+<% if user_signed_in? %>
+<div>
+  <%= link_to 'Remove all flags', tech_flagged_remove_path %>
+</div>
+<% end %>
 <% end %>

@@ -70,11 +70,9 @@ class TechSitesController < ApplicationController
     @tech_sites.each do |tech_site|
       if tech_site.active
         doc = Nokogiri::HTML(open(tech_site.url))
-        if tech_site.subgroups
-
-        else
-          get_tech(tech_site, doc)
-        end
+        get_tech(tech_site, doc)
+        tech_site.first_scrape = false
+        tech_site.save
       end
     end
   end
@@ -94,20 +92,25 @@ class TechSitesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def tech_site_params
-      params.require(:tech_site).permit(:active, :name, :url, :subgroups, :subgroup_selector, :tech_selector, :tech_description_selector, :found_errors, :comments)
+      params.require(:tech_site).permit(:active, :name, :url, :subgroups, :subgroup_selector, :tech_selector, :tech_title_selector, :tech_link_selector, :tech_description_selector, :found_errors, :comments, :first_scrape)
     end
 
     def get_tech(tech_site, doc)
+      tech_flag = true
       techs = doc.css(tech_site.tech_selector)
       techs.each do |tech|
-        tech_text = tech.text
-        tech_link = tech['href']
+        tech_text = tech.css(tech_site.tech_title_selector).text
+        tech_link = tech.css(tech_site.tech_link_selector)[0]['href']
+        tech_description = tech.css(tech_site.tech_description_selector).text
         if !tech_link.start_with?("http")
           uri = URI.parse(tech_site.url)
           tech_link = "#{uri.scheme}://#{uri.host}" + tech_link
         end
         if TechListing.where(name: tech_text).blank?
-          TechListing.create(name: tech_text, url: tech_link, source: tech_site.name, source_url: tech_site.url, description: "", flagged: false, submitted: false)
+          if tech_site.first_scrape?
+            tech_flag = false
+          end
+          newtech = TechListing.create(name: tech_text, url: tech_link, source: tech_site.name, source_url: tech_site.url, description: tech_description, flagged: tech_flag, submitted: false)
         end
       end
     end
