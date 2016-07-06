@@ -1,0 +1,45 @@
+<%= form_for(@tech_listing) do |f| %>
+  <% if @tech_listing.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@tech_listing.errors.count, "error") %> prohibited this tech_listing from being saved:</h2>
+
+      <ul>
+      <% @tech_listing.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :url %><br>
+    <%= f.text_field :url %>
+  </div>
+  <div class="field">
+    <%= f.label :source %><br>
+    <%= f.text_field :source %>
+  </div>
+  <div class="field">
+    <%= f.label :source_url %><br>
+    <%= f.text_field :source_url %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :flagged %><br>
+    <%= f.check_box :flagged %>
+  </div>
+  <div class="field">
+    <%= f.label :submitted %><br>
+    <%= f.check_box :submitted %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

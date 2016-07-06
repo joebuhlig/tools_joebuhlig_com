@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  resources :tech_listings, path: 'tech/listings'
+  get 'tech/flagged' => 'tech_listings#flagged'
+  get 'tech/submitted' => 'tech_listings#submitted'
+  resources :tech_sites, path: 'tech/sites'
+  get 'tech/scrape' => 'tech_sites#scrape'
+  get 'tech' => 'tech_sites#dashboard'
+  
   get 'discounts/:code' => 'discounts#validate_code'
 
   get 'working_with_omni_focus/index'

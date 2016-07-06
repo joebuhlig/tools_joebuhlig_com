@@ -1,0 +1,7 @@
+<% if user_signed_in? %>
+<h1>New Tech Site</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Back', tech_sites_path %>
+<% end %>

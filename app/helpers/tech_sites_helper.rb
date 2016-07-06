@@ -1,0 +1,2 @@
+module TechSitesHelper
+end

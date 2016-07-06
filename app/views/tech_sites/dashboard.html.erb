@@ -1,0 +1,14 @@
+<% if user_signed_in? %>
+<div>
+<a href="/tech/sites">Tech Sites</a> N: <%= @tech_sites_count %>
+</div>
+<div>
+<a href="/tech/listings">Tech Listings</a> N: <%= @tech_count %>
+</div>
+<div>
+<a href="/tech/flagged">Flagged Tech</a> N: <%= @flagged_count %>
+</div>
+<div>
+<a href="/tech/submitted">Submitted Tech</a> N: <%= @submitted_count %>
+</div>
+<% end %>

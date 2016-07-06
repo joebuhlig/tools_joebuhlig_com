@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  url: MyString
+  source: MyString
+  source_url: MyString
+  description: MyText
+  flagged: false
+  submitted: false
+  timestamps: MyString
+
+two:
+  name: MyString
+  url: MyString
+  source: MyString
+  source_url: MyString
+  description: MyText
+  flagged: false
+  submitted: false
+  timestamps: MyString

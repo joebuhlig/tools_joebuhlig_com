@@ -1,0 +1,37 @@
+<% if user_signed_in? %>
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Tech Listings</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Source</th>
+      <th>Description</th>
+      <th>Flagged</th>
+      <th>Submitted</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tech_listings.each do |tech_listing| %>
+      <tr>
+        <td><a href="<%= tech_listing.url %>" target="_blank"><%= tech_listing.name %></a></td>
+        <td><a href="<%= tech_listing.source_url %>" target="_blank"><%= tech_listing.source %></a></td>
+        <td><%= tech_listing.description %></td>
+        <td><%= tech_listing.flagged %></td>
+        <td><%= tech_listing.submitted %></td>
+        <td><%= link_to 'Show', tech_listing %></td>
+        <td><%= link_to 'Edit', edit_tech_listing_path(tech_listing) %></td>
+        <td><%= link_to 'Destroy', tech_listing, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Tech listing', new_tech_listing_path %>
+<% end %>

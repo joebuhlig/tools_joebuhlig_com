@@ -1,0 +1,45 @@
+<% if user_signed_in? %>
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Tech Sites</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Active</th>
+      <th>Name</th>
+      <th>Url</th>
+      <th>Subgroups</th>
+      <th>Subgroup selector</th>
+      <th>Tech selector</th>
+      <th>Tech Description selector</th>
+      <th>Errors</th>
+      <th>Comments</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tech_sites.each do |tech_site| %>
+      <tr>
+        <td><%= tech_site.active %></td>
+        <td><%= tech_site.name %></td>
+        <td><%= tech_site.url %></td>
+        <td><%= tech_site.subgroups %></td>
+        <td><%= tech_site.subgroup_selector %></td>
+        <td><%= tech_site.tech_selector %></td>
+        <td><%= tech_site.tech_description_selector %></td>
+        <td><%= tech_site.found_errors %></td>
+        <td><%= tech_site.comments %></td>
+        <td><%= link_to 'Show', tech_site %></td>
+        <td><%= link_to 'Edit', edit_tech_site_path(tech_site) %></td>
+        <td><%= link_to 'Destroy', tech_site, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Tech site', new_tech_site_path %>
+<% end %>

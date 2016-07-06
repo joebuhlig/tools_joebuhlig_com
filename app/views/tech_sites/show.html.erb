@@ -1,0 +1,46 @@
+<% if user_signed_in? %>
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Active:</strong>
+  <%= @tech_site.active %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @tech_site.name %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @tech_site.url %>
+</p>
+
+<p>
+  <strong>Subgroups:</strong>
+  <%= @tech_site.subgroups %>
+</p>
+
+<p>
+  <strong>Subgroup selector:</strong>
+  <%= @tech_site.subgroup_selector %>
+</p>
+
+<p>
+  <strong>Tech selector:</strong>
+  <%= @tech_site.tech_selector %>
+</p>
+
+<p>
+  <strong>Tech Description selector:</strong>
+  <%= @tech_site.tech_description_selector %>
+</p>
+
+<p>
+  <strong>Comments:</strong>
+  <%= @tech_site.comments %>
+</p>
+
+<%= link_to 'Edit', edit_tech_site_path(@tech_site) %> |
+<%= link_to 'Back', tech_sites_path %>
+<% end %>

@@ -1,0 +1,53 @@
+<%= form_for(@tech_site) do |f| %>
+  <% if @tech_site.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@tech_site.errors.count, "error") %> prohibited this tech_site from being saved:</h2>
+
+      <ul>
+      <% @tech_site.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :active %><br>
+    <%= f.check_box :active %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :url %><br>
+    <%= f.text_field :url %>
+  </div>
+  <div class="field">
+    <%= f.label :subgroups %><br>
+    <%= f.check_box :subgroups %>
+  </div>
+  <div class="field">
+    <%= f.label :subgroup_selector %><br>
+    <%= f.text_field :subgroup_selector %>
+  </div>
+  <div class="field">
+    <%= f.label :tech_selector %><br>
+    <%= f.text_field :tech_selector %>
+  </div>
+  <div class="field">
+    <%= f.label :tech_description_selector %><br>
+    <%= f.text_field :tech_description_selector %>
+  </div>
+  <div class="field">
+    <%= f.label :found_errors %><br>
+    <%= f.check_box :found_errors %>
+  </div>
+  <div class="field">
+    <%= f.label :comments %><br>
+    <%= f.text_area :comments %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

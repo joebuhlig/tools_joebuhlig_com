@@ -1,0 +1,41 @@
+<% if user_signed_in? %>
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @tech_listing.name %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @tech_listing.url %>
+</p>
+
+<p>
+  <strong>Source:</strong>
+  <%= @tech_listing.source %>
+</p>
+
+<p>
+  <strong>Source url:</strong>
+  <%= @tech_listing.source_url %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @tech_listing.description %>
+</p>
+
+<p>
+  <strong>Flagged:</strong>
+  <%= @tech_listing.flagged %>
+</p>
+
+<p>
+  <strong>Submitted:</strong>
+  <%= @tech_listing.submitted %>
+</p>
+
+<%= link_to 'Edit', edit_tech_listing_path(@tech_listing) %> |
+<%= link_to 'Back', tech_listings_path %>
+<% end %>

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  url: MyString
+  subgroups: false
+  subgroup_selector: MyString
+  tech_selector: 
+  comments: MyText
+
+two:
+  name: MyString
+  url: MyString
+  subgroups: false
+  subgroup_selector: MyString
+  tech_selector: 
+  comments: MyText

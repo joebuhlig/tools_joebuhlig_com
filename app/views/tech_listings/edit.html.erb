@@ -1,0 +1,8 @@
+<% if user_signed_in? %>
+<h1>Editing Tech Listing</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', @tech_listing %> |
+<%= link_to 'Back', tech_listings_path %>
+<% end %>
