@@ -111,13 +111,24 @@ class TechSitesController < ApplicationController
       new_tech_list = []
       techs = doc.css(tech_site.tech_selector)
       techs.each do |tech|
-        tech_text = tech.css(tech_site.tech_title_selector).text
-        tech_link = tech.css(tech_site.tech_link_selector)[0]['href']
+        if !tech_site.tech_title_selector.empty?
+          tech_text = tech.css(tech_site.tech_title_selector).text
+        else
+          tech_text = tech.text
+        end
+
+        if !tech_site.tech_link_selector.empty?
+          tech_link = tech.css(tech_site.tech_link_selector)[0]['href']
+        else
+          tech_link = tech['href']
+        end
+        
         if !tech_site.tech_description_selector.empty?
           tech_description = tech.css(tech_site.tech_description_selector).text
         else
           tech_description = ""
         end
+        
         if !tech_link.start_with?("http")
           uri = URI.parse(tech_site.url)
           tech_link = "#{uri.scheme}://#{uri.host}" + tech_link
