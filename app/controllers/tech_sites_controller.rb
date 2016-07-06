@@ -67,13 +67,18 @@ class TechSitesController < ApplicationController
 
   def scrape(reload = false)
     @tech_sites = TechSite.all
+    new_tech_array = []
     @tech_sites.each do |tech_site|
       if tech_site.active
         doc = Nokogiri::HTML(open(tech_site.url))
-        get_tech(tech_site, doc, reload)
+        new_tech = get_tech(tech_site, doc, reload)
         tech_site.first_scrape = false
         tech_site.save
+        new_tech_array.push(new_tech).flatten!
       end
+    end
+    unless new_tech_array.empty?
+      TechMailer.new_tech(TechListing.where(id: new_tech_array, flagged: true)).deliver_now
     end
   end
 
@@ -103,6 +108,7 @@ class TechSitesController < ApplicationController
 
     def get_tech(tech_site, doc, reload)
       tech_flag = !reload
+      new_tech_list = []
       techs = doc.css(tech_site.tech_selector)
       techs.each do |tech|
         tech_text = tech.css(tech_site.tech_title_selector).text
@@ -117,7 +123,9 @@ class TechSitesController < ApplicationController
             tech_flag = false
           end
           newtech = TechListing.create(name: tech_text, url: tech_link, source: tech_site.name, source_url: tech_site.url, description: tech_description, flagged: tech_flag, submitted: false)
+          new_tech_list.push(newtech.id)
         end
       end
+      return new_tech_list
     end
 end

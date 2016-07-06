@@ -2,27 +2,15 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
-  <%= @tech_listing.name %>
+  <h3><a href="<%= @tech_listing.url %>" target="_blank"><%= @tech_listing.name %></a></h3>
 </p>
 
 <p>
-  <strong>Url:</strong>
-  <%= @tech_listing.url %>
+  <strong>From:</strong>
+  <a href="<%= @tech_listing.source_url %>" target="_blank"><%= @tech_listing.source %></a>
 </p>
 
 <p>
-  <strong>Source:</strong>
-  <%= @tech_listing.source %>
-</p>
-
-<p>
-  <strong>Source url:</strong>
-  <%= @tech_listing.source_url %>
-</p>
-
-<p>
-  <strong>Description:</strong>
   <%= @tech_listing.description %>
 </p>
 

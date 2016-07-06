@@ -4,7 +4,11 @@ class TechListingsController < ApplicationController
   # GET /tech_listings
   # GET /tech_listings.json
   def index
-    @tech_listings = TechListing.all
+    if params[:search]
+      @tech_listings = TechListing.search(params[:search]).order("created_at DESC").paginate(:page => params[:page], :per_page => 100)
+    else
+      @tech_listings = TechListing.paginate(:page => params[:page], :per_page => 100)
+    end
   end
 
   # GET /tech_listings/1
