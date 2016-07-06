@@ -65,16 +65,22 @@ class TechSitesController < ApplicationController
     end
   end
 
-  def scrape
+  def scrape(reload = false)
     @tech_sites = TechSite.all
     @tech_sites.each do |tech_site|
       if tech_site.active
         doc = Nokogiri::HTML(open(tech_site.url))
-        get_tech(tech_site, doc)
+        get_tech(tech_site, doc, reload)
         tech_site.first_scrape = false
         tech_site.save
       end
     end
+  end
+
+  def rescrape
+    TechListing.destroy_all
+    scrape(true)
+    redirect_to "/tech/listings"
   end
 
   def dashboard
@@ -95,8 +101,8 @@ class TechSitesController < ApplicationController
       params.require(:tech_site).permit(:active, :name, :url, :subgroups, :subgroup_selector, :tech_selector, :tech_title_selector, :tech_link_selector, :tech_description_selector, :found_errors, :comments, :first_scrape)
     end
 
-    def get_tech(tech_site, doc)
-      tech_flag = true
+    def get_tech(tech_site, doc, reload)
+      tech_flag = !reload
       techs = doc.css(tech_site.tech_selector)
       techs.each do |tech|
         tech_text = tech.css(tech_site.tech_title_selector).text

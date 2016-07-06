@@ -1,10 +1,15 @@
 <% if user_signed_in? %>
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Tech Listings</h1>
+<%= render 'shared/tech_header' %>
+<br>
 <div>
-  <%= link_to 'Flagged listings', tech_flagged_path %>
+  <%= link_to 'Remove all flags', tech_flagged_remove_path %> - 
+  <%= link_to 'Rescrape all listings', tech_rescrape_path %> - 
+  <%= link_to 'Scrape new listings', tech_scrape_path %>
 </div>
+
+<h1>Listing Tech Listings</h1>
 <table>
   <thead>
     <tr>
@@ -32,16 +37,4 @@
     <% end %>
   </tbody>
 </table>
-
-<br>
-
-<div>
-  <%= link_to 'All listings', tech_listings_path %>
-</div>
-
-<% if user_signed_in? %>
-<div>
-  <%= link_to 'Remove all flags', tech_flagged_remove_path %>
-</div>
-<% end %>
 <% end %>

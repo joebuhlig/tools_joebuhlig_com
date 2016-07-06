@@ -5,7 +5,6 @@ class TechListingsController < ApplicationController
   # GET /tech_listings.json
   def index
     @tech_listings = TechListing.all
-    @flagged = false
   end
 
   # GET /tech_listings/1
@@ -64,7 +63,6 @@ class TechListingsController < ApplicationController
 
   def flagged
     @tech_listings = TechListing.where(flagged: true)
-    @flagged = true
     render "index"
   end
 

@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
+  
   resources :tech_listings, path: 'tech/listings'
   get 'tech/flagged' => 'tech_listings#flagged'
   get 'tech/submitted' => 'tech_listings#submitted'
   get 'tech/flagged/remove' => 'tech_listings#remove_flags'
+
   resources :tech_sites, path: 'tech/sites'
   get 'tech/scrape' => 'tech_sites#scrape'
+  get 'tech/rescrape' => 'tech_sites#rescrape'
   get 'tech' => 'tech_sites#dashboard'
   
   get 'discounts/:code' => 'discounts#validate_code'
