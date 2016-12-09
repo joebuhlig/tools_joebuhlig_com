@@ -33,3 +33,14 @@
 		<div class="feed-excerpt">When migrating to Jekyll I need to re-create my podcast feed for iTunes. This is the RSS feed I'm generating and pushing to Apple.</div>
 	</div>
 </div>
+<div id="guest-form-wrapper">
+	<form action="/mail" method="POST">
+	    <input placeholder="Name (required)" type="text" name="name" required>
+	    <input placeholder="Email (required)" type="email" name="_replyto" required>
+	    <input placeholder="Subject (required)" name="_subject" type="text" required>
+	    <textarea placeholder="Message (required)" name="message" rows="4" maxlength="1000" required></textarea>
+	    <input type="submit" class="pointer" value="Send Message">
+	    <input type="hidden" name="_next" value="/affiliates" />
+	    <input type="text" name="_gotcha" style="display:none" />
+	</form>
+</div>

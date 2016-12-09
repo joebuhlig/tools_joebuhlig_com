@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <% @params.each do |key,value| %>
+    <% unless @exclusions.include? key %>
+    <p><strong><%= key %></strong>:<br><%= value %></p>
+    <% end %>
+    <% end %>
+  </body>
+</html>
